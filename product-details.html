@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Priority</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+
+    <!-- CSS Global -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Head Libs -->
+    <script src="assets/plugins/modernizr.custom.js"></script>
+
+</head>
+
+<body id="home" class="wide">
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <div id="preloader-title">Loading</div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <!-- Header top bar -->
+        <div class="top-bar d-lg-block d-none">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="list-inline d-inline-flex align-items-center gap-2">
+                        <li class="icon-user"><a href="login.html"><img src="assets/img/icon-1.png" alt="" />
+                                <span>Login</span></a></li>
+                        <li class="icon-form"><a href="login.html"><img src="assets/img/icon-2.png" alt="" /> <span>Not
+                                    a Member? <span class="colored">Sign Up</span></span></a></li>
+                        <li><a href="mailto:support@mobilepriority.co.in"><i class="fa fa-envelope"></i>
+                                <span>support@mobilepriority.co.in</span></a></li>
+                    </ul>
+
+                    <ul class="list-inline d-inline-flex align-items-center justify-content-end gap-2">
+                        <li class="hidden-xs"><a href="contact.html"><span>Contact</span></a></li>
+                        <li class="hidden-xs"><a href="faq.html"><span>FAQ</span></a></li>
+                        <li class="hidden-xs"><a href="#"> <span>Join Our Franchise Family</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /Header top bar -->
+
+        <!-- HEADER -->
+        <header class="header fixed">
+            <div class="header-wrapper">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Mobile Priority" /></a>
+                    </div>
+                    <!-- /Logo -->
+
+                    <!-- Header search -->
+                    <div class="header-search">
+                        <input class="form-control" type="text" placeholder="What are you looking?" />
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <!-- /Header search -->
+
+                    <!-- Header shopping cart -->
+                    <div class="header-cart">
+                        <div class="cart-wrapper">
+                            <a href="wishlist.html" class="btn btn-theme-transparent hidden-xs hidden-sm"><i
+                                    class="fa fa-heart"></i></a>
+                            <a href="#" class="btn btn-theme-transparent"><i class="fa fa-shopping-cart"></i> <span
+                                    class="hidden-xs"> 0 item(s)</span></a>
+                            <!-- Mobile menu toggle button -->
+                            <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                            <!-- /Mobile menu toggle button -->
+                        </div>
+                    </div>
+                    <!-- Header shopping cart -->
+                </div>
+            </div>
+            <div class="navigation-wrapper">
+                <div class="container">
+                    <!-- Navigation -->
+                    <nav class="navigation closed clearfix">
+                        <div class="d-flex justify-content-between align-items-center d-lg-none d-block bg-white p-2">
+                            <a href="index.html" style="max-width: 90px;"><img src="assets/img/logo.png"
+                                    class="img-fluid" alt="Mobile Priority" /></a>
+                            <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                        </div>
+
+                        <ul class="nav sf-menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Product</a></li>
+                            <li><a href="category.html">Our Store</a></li>
+                            <li><a href="category.html">Sell Your Phone</a></li>
+                            <li><a href="category.html">Accessories</a></li>
+                            <li class="d-block d-sm-none"><a href="contact.html">Contact</a></li>
+                            <li class="d-block d-sm-none"><a href="faq.html">FAQ</a></li>
+                            <li class="d-block d-sm-none"><a href="#"> Join Our Franchise Family</a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Login</span></a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Not a Member? <span
+                                            class="colored">Sign Up</span></span></a></li>
+                        </ul>
+                    </nav>
+                    <!-- /Navigation -->
+                </div>
+            </div>
+        </header>
+        <!-- /HEADER -->
+
+        <!-- CONTENT AREA -->
+        <div class="content-area">
+
+            <!-- PAGE -->
+            <section class="page-section">
+                <div class="container">
+
+                    <div class="row product-single">
+                        <div class="col-md-6">
+                            <div class="badges">
+                                <div class="hot">hot</div>
+                                <div class="new">new</div>
+                            </div>
+                            <div class="owl-carousel img-carousel">
+                                <div class="item">
+                                    <a class="btn btn-theme btn-theme-transparent btn-zoom"
+                                        href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><img
+                                            class="img-responsive" src="assets/img/preview/shop/product-1-big.jpg"
+                                            alt="" /></a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-theme btn-theme-transparent btn-zoom"
+                                        href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><img
+                                            class="img-responsive" src="assets/img/preview/shop/product-1-big.jpg"
+                                            alt="" /></a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-theme btn-theme-transparent btn-zoom"
+                                        href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><img
+                                            class="img-responsive" src="assets/img/preview/shop/product-1-big.jpg"
+                                            alt="" /></a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-theme btn-theme-transparent btn-zoom"
+                                        href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><i
+                                            class="fa fa-plus"></i></a>
+                                    <a href="assets/img/preview/shop/product-1-big.jpg" data-gal="prettyPhoto"><img
+                                            class="img-responsive" src="assets/img/preview/shop/product-1-big.jpg"
+                                            alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="row product-thumbnails">
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#"
+                                        onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [0, 300]);"><img
+                                            src="assets/img/preview/shop/product-thumb-1.jpg" alt="" /></a></div>
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#"
+                                        onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [1, 300]);"><img
+                                            src="assets/img/preview/shop/product-thumb-2.jpg" alt="" /></a></div>
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#"
+                                        onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [2, 300]);"><img
+                                            src="assets/img/preview/shop/product-thumb-3.jpg" alt="" /></a></div>
+                                <div class="col-xs-2 col-sm-2 col-md-3"><a href="#"
+                                        onclick="jQuery('.img-carousel').trigger('to.owl.carousel', [3, 300]);"><img
+                                            src="assets/img/preview/shop/product-thumb-4.jpg" alt="" /></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="back-to-category">
+                                <span class="link"><i class="fa fa-angle-left"></i> Back to <a
+                                        href="category.html">Category</a></span>
+                                <div class="pull-right">
+                                    <a class="btn btn-theme btn-theme-transparent btn-previous" href="#"><i
+                                            class="fa fa-angle-left"></i></a><!--
+                                        --><a class="btn btn-theme btn-theme-transparent btn-next" href="#"><i
+                                            class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <h2 class="product-title">Standard Product Header Here</h2>
+                            <div class="product-rating clearfix">
+                                <div class="rating">
+                                    <span class="star"></span><!--
+                                        --><span class="star active"></span><!--
+                                        --><span class="star active"></span><!--
+                                        --><span class="star active"></span><!--
+                                        --><span class="star active"></span>
+                                </div>
+                                <a class="reviews" href="#">16 reviews</a> | <a class="add-review" href="#">Add Your
+                                    Review</a>
+                            </div>
+                            <div class="product-availability">Availability: <strong>In stock</strong> 21 Item(s)</div>
+                            <hr class="page-divider small" />
+
+                            <div class="product-price">$400.00</div>
+                            <hr class="page-divider" />
+
+                            <div class="product-text">
+                                <p>Etiam eu justo ut nisi sollicitudin bibendum. Fusce sed dui ac turpis vulputate
+                                    tincidunt vel sed magna. Pellentesque <strong>pretium</strong> mollis metus vel
+                                    feugiat. Cum sociis natoque penatibus <strong>et magnis</strong> dis parturient
+                                    montes, nascetur ridiculus mus. <strong>Vestibulum</strong> commodo mauris eget
+                                    sapien posuere, id <a href="#">efficitur mi tristique</a>.</p>
+                                <ul>
+                                    <li>- Cras tristique neque a mauris volutpat, eget sodales neque elementum.</li>
+                                    <li>- Vestibulum iaculis velit sed dolor suscipit pretium.</li>
+                                    <li>- Etiam mattis risus id leo imperdiet tincidunt.</li>
+                                </ul>
+                            </div>
+                            <hr class="page-divider" />
+
+                            <form action="#" class="row variable">
+                                <div class="col-sm-6">
+                                    <div class="form-group selectpicker-wrapper">
+                                        <label for="exampleSelect1">Size</label>
+                                        <select id="exampleSelect1" class="selectpicker input-price"
+                                            data-live-search="true" data-width="100%" data-toggle="tooltip"
+                                            title="Select">
+                                            <option>Select Your Size</option>
+                                            <option>Size 1</option>
+                                            <option>Size 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group selectpicker-wrapper">
+                                        <label for="exampleSelect2">Color</label>
+                                        <select id="exampleSelect2" class="selectpicker input-price"
+                                            data-live-search="true" data-width="100%" data-toggle="tooltip"
+                                            title="Select">
+                                            <option>Select Your Color</option>
+                                            <option>Color 1</option>
+                                            <option>Color 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr class="page-divider small" />
+
+
+                            <div class="buttons">
+                                <div class="quantity">
+                                    <button class="btn"><i class="fa fa-minus"></i></button>
+                                    <input class="form-control qty" type="number" step="1" min="1" name="quantity"
+                                        value="1" title="Qty">
+                                    <button class="btn"><i class="fa fa-plus"></i></button>
+                                </div>
+                                <button class="btn btn-theme btn-cart btn-icon-left" type="submit"><i
+                                        class="fa fa-shopping-cart"></i>Add to cart</button>
+                                <button class="btn btn-theme btn-wish-list"><i class="fa fa-heart"></i></button>
+                                <button class="btn btn-theme btn-compare"><i class="fa fa-exchange"></i></button>
+                            </div>
+
+                            <hr class="page-divider small" />
+
+                            <table>
+                                <tr>
+                                    <td class="title">Category:</td>
+                                    <td>Men Dress</td>
+                                </tr>
+                                <tr>
+                                    <td class="title">Product Code:</td>
+                                    <td>PS08</td>
+                                </tr>
+                                <tr>
+                                    <td class="title">Tags:</td>
+                                    <td>Fashion - clothes - Dress - Men - jean</td>
+                                </tr>
+                            </table>
+                            <hr class="page-divider small" />
+
+                            <ul class="social-icons list-inline">
+                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+            <!-- PAGE -->
+            <section class="page-section md-padding">
+                <div class="container">
+                    <div class="row blocks shop-info-banners">
+                        <div class="col-md-4">
+                            <div class="block">
+                                <div class="media">
+                                    <div class="pull-right"><i class="fa fa-gift"></i></div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Buy 1 Get 1</h4>
+                                        Proin dictum elementum velit. Fusce euismod consequat ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="block">
+                                <div class="media">
+                                    <div class="pull-right"><i class="fa fa-comments"></i></div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Call to Free</h4>
+                                        Proin dictum elementum velit. Fusce euismod consequat ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="block">
+                                <div class="media">
+                                    <div class="pull-right"><i class="fa fa-trophy"></i></div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Money Back!</h4>
+                                        Proin dictum elementum velit. Fusce euismod consequat ante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+            <!-- PAGE -->
+            <section class="page-section">
+                <div class="container">
+                    <div class="tabs-wrapper content-tabs">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#item-description" data-toggle="tab">Item Description</a></li>
+                            <li><a href="#reviews" data-toggle="tab">Reviews (2)</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="item-description">
+                                <p>Integer egestas, orci id condimentum eleifend, nibh nisi pulvinar eros, vitae ornare
+                                    massa neque ut orci. Nam aliquet lectus sed odio eleifend, at iaculis dolor egestas.
+                                    Nunc elementum pellentesque augue sodales porta. Etiam aliquet rutrum turpis,
+                                    feugiat sodales ipsum consectetur nec. </p>
+                                <p>Morbi imperdiet lacus nec ante blandit, sit amet fermentum magna faucibus. Nunc nec
+                                    libero id urna vulputate venenatis. Aenean vulputate odio felis, in rhoncus sapien
+                                    auctor nec. Donec non posuere sem. Ut quis egestas libero, mattis gravida nibh.
+                                    Phasellus a nisi ac mi luctus tincidunt et non est. Proin ac orci rhoncus arcu
+                                    bibendum molestie vel et metus. Aenean iaculis purus et velit iaculis, nec convallis
+                                    ipsum ornare. Integer a orci enim.</p>
+                            </div>
+                            <div class="tab-pane fade" id="reviews">
+
+                                <div class="comments">
+                                    <div class="media comment">
+                                        <a href="#" class="pull-left comment-avatar">
+                                            <img alt="" src="assets/img/preview/avatars/avatar-1.jpg"
+                                                class="media-object">
+                                        </a>
+                                        <div class="media-body">
+                                            <p class="comment-meta"><span class="comment-author"><a href="#">User Name
+                                                        Here</a> <span class="comment-date"> 26 days ago <i
+                                                            class="fa fa-flag"></i></span></span></p>
+                                            <p class="comment-text">Donec ullamcorper nulla non metus auctor fringilla.
+                                                Etiam porta sem malesuada magna mollis euismd. Curabitur blandit tempus
+                                                porttitor. Integer posuere erat a ante venenatis dapibus posuere.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media comment">
+                                        <a href="#" class="pull-left comment-avatar">
+                                            <img alt="" src="assets/img/preview/avatars/avatar-3.jpg"
+                                                class="media-object">
+                                        </a>
+                                        <div class="media-body">
+                                            <p class="comment-meta"><span class="comment-author"><a href="#">User Name
+                                                        Here</a> <span class="comment-date"> 26 days ago <i
+                                                            class="fa fa-flag"></i></span></span></p>
+                                            <p class="comment-text">Donec ullamcorper nulla non metus auctor fringilla.
+                                                Etiam porta sem malesuada magna mollis euismd. Curabitur blandit tempus
+                                                porttitor. Integer posuere erat a ante venenatis dapibus posuere.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comments-form">
+                                    <h4 class="block-title">Add a Review</h4>
+                                    <form method="post" action="#" name="comments-form" id="comments-form">
+                                        <div class="form-group"><input type="text" placeholder="Your name and surname"
+                                                class="form-control" title="comments-form-name"
+                                                name="comments-form-name"></div>
+                                        <div class="form-group"><input type="text" placeholder="Your email adress"
+                                                class="form-control" title="comments-form-email"
+                                                name="comments-formemail"></div>
+                                        <div class="form-group"><textarea placeholder="Your message"
+                                                class="form-control" title="comments-form-comments"
+                                                name="comments-form-comments" rows="6"></textarea></div>
+                                        <div class="form-group"><button type="submit"
+                                                class="btn btn-theme btn-theme-transparent btn-icon-left" id="submit"><i
+                                                    class="fa fa-comment"></i> Review</button></div>
+                                    </form>
+                                </div>
+                                <!-- // -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+            <!-- PAGE -->
+            <section class="page-section">
+                <div class="container">
+                    <h2 class="section-title section-title-lg"><span>Related Products</span></h2>
+                    <div class="featured-products-carousel">
+                        <div class="owl-carousel" id="featured-products-carousel">
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-1.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-2.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-3.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-4.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-1.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-2.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-3.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail no-border no-padding">
+                                <div class="media">
+                                    <a class="media-link" href="#">
+                                        <img src="assets/img/preview/shop/product-4.jpg" alt="" />
+                                        <span class="icon-view">
+                                            <strong><i class="fa fa-eye"></i></strong>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4 class="caption-title">Standard Product Header</h4>
+                                    <div class="rating">
+                                        <span class="star"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span><!--
+                                            --><span class="star active"></span>
+                                    </div>
+                                    <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                                    <div class="buttons">
+                                        <a class="btn btn-theme btn-theme-transparent btn-wish-list" href="#"><i
+                                                class="fa fa-heart"></i></a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-icon-left" href="#"><i
+                                                class="fa fa-shopping-cart"></i>Add to Cart</a><!--
+                                            --><a class="btn btn-theme btn-theme-transparent btn-compare" href="#"><i
+                                                class="fa fa-exchange"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="page-divider half" />
+                    <a class="btn btn-theme btn-view-more-block" href="#" style="max-width: 100%;">View More</a>
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+            <!-- PAGE -->
+            <section class="page-section">
+                <div class="container">
+                    <h2 class="section-title"><span>Brand &amp; Clients</span></h2>
+                    <div class="partners-carousel">
+                        <div class="owl-carousel" id="partners">
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/preview/partners/brand-logo.jpg" alt="" /></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /PAGE -->
+
+        </div>
+        <!-- /CONTENT AREA -->
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget">
+                                <div class="d-flex align-items-center mb-3 footer-logo">
+                                    <img src="assets/img/logo.png" alt="Mobile Priority Logo" class="img-fluid">
+
+                                </div>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin
+                                    ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                                <ul class="social-icons">
+                                    <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget-categories">
+                                <h4 class="widget-title">Information</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Private Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget-tag-cloud">
+                                <h4 class="widget-title">Item Tags</h4>
+                                <ul>
+                                    <li><a href="#">SAMSUMG</a></li>
+                                    <li><a href="#">Xiaomi</a></li>
+                                    <li><a href="#">APPLE</a></li>
+                                    <li><a href="#">OPPO</a></li>
+                                    <li><a href="#">ONEPLUS</a></li>
+                                    <li><a href="#">GOOGLE</a></li>
+                                    <li><a href="#">NOKIA</a></li>
+                                    <li><a href="#">VIVO</a></li>
+                                    <li><a href="#">NOTHING</a></li>
+                                    <li><a href="#">INFINIX</a></li>
+                                    <li><a href="#">TECNO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget">
+                                <h4 class="widget-title">Contact</h4>
+                                <ul class="d-flex flex-column gap-2">
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-location-dot me-2"></i> 79A, Shelter
+                                            Apartment, Old Calcutta Rd, Sumangalapuri, Anandapuri, Barrackpore, West
+                                            Bengal 700123
+                                    </li></a>
+                                    <li><a href="#"><i class="fa-solid fa-phone me-2"></i> +91 6291701988</li></a>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp me-2"></i> +91 6291701988</li></a>
+                                    <li><a href="#"><i class="fa-regular fa-envelope me-2"></i>
+                                            support@mobilepriority.co.in </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-meta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="copyright">Copyright 2025 Mobile Priority | All Rights Reserved </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="payments">
+                                <ul>
+                                    <li><img src="assets/img/preview/payments/visa.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/mastercard.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/paypal.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/american-express.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/visa-electron.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/maestro.jpg" alt="" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /FOOTER -->
+        <div id="to-top" class="to-top"><i class="fa fa-angle-up"></i></div>
+    </div>
+    <!-- /WRAPPER -->
+
+    <!-- JS Global -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/superfish/js/superfish.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/plugins/jquery.sticky.min.js"></script>
+    <script src="assets/plugins/jquery.easing.min.js"></script>
+    <script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+    <script src="assets/plugins/smooth-scrollbar.min.js"></script>
+
+    <!-- JS Page Level -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

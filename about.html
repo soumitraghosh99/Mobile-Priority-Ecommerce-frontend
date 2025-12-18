@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Priority</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+
+    <!-- CSS Global -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Head Libs -->
+    <script src="assets/plugins/modernizr.custom.js"></script>
+
+</head>
+
+<body id="home" class="wide">
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <div id="preloader-title">Loading</div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <!-- Header top bar -->
+        <div class="top-bar d-lg-block d-none">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="list-inline d-inline-flex align-items-center gap-2">
+                        <li class="icon-user"><a href="login.html"><img src="assets/img/icon-1.png" alt="" />
+                                <span>Login</span></a></li>
+                        <li class="icon-form"><a href="login.html"><img src="assets/img/icon-2.png" alt="" /> <span>Not
+                                    a Member? <span class="colored">Sign Up</span></span></a></li>
+                        <li><a href="mailto:support@mobilepriority.co.in"><i class="fa fa-envelope"></i>
+                                <span>support@mobilepriority.co.in</span></a></li>
+                    </ul>
+
+                    <ul class="list-inline d-inline-flex align-items-center justify-content-end gap-2">
+                        <li class="hidden-xs"><a href="contact.html"><span>Contact</span></a></li>
+                        <li class="hidden-xs"><a href="faq.html"><span>FAQ</span></a></li>
+                        <li class="hidden-xs"><a href="#"> <span>Join Our Franchise Family</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /Header top bar -->
+
+        <!-- HEADER -->
+        <header class="header fixed">
+            <div class="header-wrapper">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Mobile Priority" /></a>
+                    </div>
+                    <!-- /Logo -->
+
+                    <!-- Header search -->
+                    <div class="header-search">
+                        <input class="form-control" type="text" placeholder="What are you looking?" />
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <!-- /Header search -->
+
+                    <!-- Header shopping cart -->
+                    <div class="header-cart">
+                        <div class="cart-wrapper">
+                            <a href="wishlist.html" class="btn btn-theme-transparent hidden-xs hidden-sm"><i
+                                    class="fa fa-heart"></i></a>
+                            <a href="#" class="btn btn-theme-transparent"><i class="fa fa-shopping-cart"></i> <span
+                                    class="hidden-xs"> 0 item(s)</span></a>
+                            <!-- Mobile menu toggle button -->
+                            <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                            <!-- /Mobile menu toggle button -->
+                        </div>
+                    </div>
+                    <!-- Header shopping cart -->
+                </div>
+            </div>
+            <div class="navigation-wrapper">
+                <div class="container">
+                    <!-- Navigation -->
+                    <nav class="navigation closed clearfix">
+                        <div class="d-flex justify-content-between align-items-center d-lg-none d-block bg-white p-2">
+                            <a href="index.html" style="max-width: 90px;"><img src="assets/img/logo.png"
+                                    class="img-fluid" alt="Mobile Priority" /></a>
+                            <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                        </div>
+
+                        <ul class="nav sf-menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Product</a></li>
+                            <li><a href="category.html">Our Store</a></li>
+                            <li><a href="category.html">Sell Your Phone</a></li>
+                            <li><a href="category.html">Accessories</a></li>
+                            <li class="d-block d-sm-none"><a href="contact.html">Contact</a></li>
+                            <li class="d-block d-sm-none"><a href="faq.html">FAQ</a></li>
+                            <li class="d-block d-sm-none"><a href="#"> Join Our Franchise Family</a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Login</span></a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Not a Member? <span
+                                            class="colored">Sign Up</span></span></a></li>
+                        </ul>
+                    </nav>
+                    <!-- /Navigation -->
+                </div>
+            </div>
+        </header>
+        <!-- /HEADER -->
+
+        <!-- CONTENT AREA -->
+        <div class="content-area">
+
+            <!-- BREADCRUMBS -->
+            <section class="page-section breadcrumbs">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>About Us</h1>
+                    </div>
+                    <ul class="breadcrumb"></ul>
+                </div>
+            </section>
+            <!-- /BREADCRUMBS -->
+
+            <!-- Branches Section Start -->
+            <section class="page-section color pb-2">
+                <div class="container">
+                    <p class="text-center lead mb-5"><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing
+                        elit. Morbi fermentum justo vitae convallis varius. Nulla tristique risus ut justo pulvinar
+                        mattis. Phasellus aliquet egestas mauris in venenatis. Nulla tristique risus ut justo pulvinar
+                        mattis. Phasellus aliquet egestas mauris in venenatis.</p>
+                    <h2 class="section-title"><span>Our <i class="fst-normal">branches</i></h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/Zbr1ZHT2oD79zXks4oKagBmvhPyRfAqfeVmoYx3W.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/1PZncF4T1Hlv3FkCnGpy3c3MBYR9P8JDn6z1p4b4.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=H+Rd%2C+opposite+ANANDADEEP+MUNICIPAL+MARKET%2C+Anandapuri%2C+Barrackpore%2C+West+Bengal+700122%2C+Barrackpore%2C+West+Bengal%2C+700122"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:9888514514" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:puratonmobile@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/xz7QEo73PYxXFjlLhTq9bilP2isg6q2TjhxJ2yCk.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/WgfgLfvegNApNKtnbBaXcZPIr4tNMvQHbVpDXjMV.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/pnuCNpZUrOet8UWEH0JrALSbxguiZh47eWFrlqce.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/O87kWSmnuNIIvP1X5pN9X0J8ogwYFkqp5ZAZmu2J.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/Zbr1ZHT2oD79zXks4oKagBmvhPyRfAqfeVmoYx3W.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/EWEVCF9tGv85SqbGWjINNSzUcNLH7hdK0B9YmHEm.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/1PZncF4T1Hlv3FkCnGpy3c3MBYR9P8JDn6z1p4b4.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail thumbnail-team no-border no-padding box p-0">
+                                <div class="w-100">
+                                    <img class="img-fluid"
+                                        src="https://mobilepriority.in/storage/stores/Zbr1ZHT2oD79zXks4oKagBmvhPyRfAqfeVmoYx3W.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="caption px-3">
+                                    <h4 class="caption-title">MOBILE PRIORITY <i
+                                            class="fst-normal text-primary">NABADWIP</i></h4>
+                                    <ul class="social-icons">
+                                        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Buroshib+Tala+Rd%2C+opposite+Hindu+School%2C+Nabadwip%2C+West+Bengal+741302%2C+Nabadwip%2C+West+Bengal%2C+741302"
+                                                class="location"><i class="fa-solid fa-location-dot"></i></a>
+                                        </li>
+                                        <li><a href="tel:8433384800" class="phone"><i class="fa-solid fa-phone"></i></a>
+                                        </li>
+                                        <li><a href="mailto:nabadwip@mobilepriority.co.in" class="email"><i
+                                                    class="fa-solid fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- Branches Section End -->
+
+            <!-- Ad Section Start -->
+            <section class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="assets/img/Banners/mobile_p_02.jpg" alt="" class="img-fluid rounded-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Ad Section End -->
+
+            <!-- Brand Section Start -->
+            <section class="page-section">
+                <div class="container">
+                    <h2 class="section-title"><span>Top <i class="fst-normal">Brand</i></h2>
+                    <div class="partners-carousel">
+                        <div class="owl-carousel" id="partners">
+                            <div><a href="#"><img src="assets/img/Brand/apple.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/motorola.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/nothing.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/oneplus.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/oppo.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/poco.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/realme.jpg" alt="" /></a></div>
+                            <div><a href="#"><img src="assets/img/Brand/samsung.jpg" alt="" /></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Brand Section End -->
+
+            <!-- Top product Section start -->
+            <section class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product-list">
+                                <a class="btn btn-theme btn-title-more" href="#">See All</a>
+                                <h4 class="block-title"><span>Top <i class="fst-normal">Sellers</i></span></h4>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product1.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product2.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product3.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-list">
+                                <a class="btn btn-theme btn-title-more" href="#">See All</a>
+                                <h4 class="block-title"><span>Top <i class="fst-normal">Accessories</i></span></h4>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product3.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product2.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product1.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-list">
+                                <a class="btn btn-theme btn-title-more" href="#">See All</a>
+                                <h4 class="block-title"><span>Top <i class="fst-normal">Newest</i></span></h4>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product1.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product2.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left media-link" href="#">
+                                        <img class="media-object" src="assets/img/Product/product3.jpg" alt="">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                                        <div class="rating">
+                                            <span class="star"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span><!--
+                                                --><span class="star active"></span>
+                                        </div>
+                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Top product Section end -->
+
+        </div>
+        <!-- /CONTENT AREA -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget">
+                                <div class="d-flex align-items-center mb-3 footer-logo">
+                                    <img src="assets/img/logo.png" alt="Mobile Priority Logo" class="img-fluid">
+
+                                </div>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin
+                                    ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                                <ul class="social-icons">
+                                    <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget-categories">
+                                <h4 class="widget-title">Information</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Private Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget-tag-cloud">
+                                <h4 class="widget-title">Item Tags</h4>
+                                <ul>
+                                    <li><a href="#">SAMSUMG</a></li>
+                                    <li><a href="#">Xiaomi</a></li>
+                                    <li><a href="#">APPLE</a></li>
+                                    <li><a href="#">OPPO</a></li>
+                                    <li><a href="#">ONEPLUS</a></li>
+                                    <li><a href="#">GOOGLE</a></li>
+                                    <li><a href="#">NOKIA</a></li>
+                                    <li><a href="#">VIVO</a></li>
+                                    <li><a href="#">NOTHING</a></li>
+                                    <li><a href="#">INFINIX</a></li>
+                                    <li><a href="#">TECNO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget">
+                                <h4 class="widget-title">Contact</h4>
+                                <ul class="d-flex flex-column gap-2">
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-location-dot me-2"></i> 79A, Shelter
+                                            Apartment, Old Calcutta Rd, Sumangalapuri, Anandapuri, Barrackpore, West
+                                            Bengal 700123
+                                    </li></a>
+                                    <li><a href="#"><i class="fa-solid fa-phone me-2"></i> +91 6291701988</li></a>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp me-2"></i> +91 6291701988</li></a>
+                                    <li><a href="#"><i class="fa-regular fa-envelope me-2"></i>
+                                            support@mobilepriority.co.in </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-meta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="copyright">Copyright 2025 Mobile Priority | All Rights Reserved </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="payments">
+                                <ul>
+                                    <li><img src="assets/img/preview/payments/visa.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/mastercard.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/paypal.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/american-express.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/visa-electron.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/maestro.jpg" alt="" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /FOOTER -->
+        <div id="to-top" class="to-top"><i class="fa fa-angle-up"></i></div>
+    </div>
+    <!-- /WRAPPER -->
+
+    <!-- JS Global -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/superfish/js/superfish.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/plugins/jquery.sticky.min.js"></script>
+    <script src="assets/plugins/jquery.easing.min.js"></script>
+    <script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+    <script src="assets/plugins/smooth-scrollbar.min.js"></script>
+
+    <!-- JS Page Level -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

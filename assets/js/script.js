@@ -6,6 +6,7 @@ var mainSlider = $('#main-slider');
 var imageCarousel = $('.img-carousel');
 var imageCarouselSize = $('.img-carousel > .item').length;
 var partnersCarousel = $('#partners');
+var branchesCarousel = $('#branches');
 var testimonialsCarousel = $('#testimonials');
 var topProductsCarousel = $('#top-products-carousel');
 var featuredProductsCarousel = $('#featured-products-carousel');
@@ -95,13 +96,6 @@ jQuery(document).ready(function () {
         $('.selectpicker').selectpicker();
     }
     
-    // prettyPhoto
-    // ---------------------------------------------------------------------------------------
-    if ($().prettyPhoto) {
-        $("a[data-gal^='prettyPhoto']").prettyPhoto({
-            theme: 'dark_square'
-        });
-    }
     
     // Scroll totop button
     // ---------------------------------------------------------------------------------------
@@ -146,7 +140,7 @@ jQuery(document).ready(function () {
                 loop: true,
                 margin: 0,
                 dots: false,
-                nav: false,
+                nav: true,
                 responsiveRefreshRate: 100,
                 responsive: {
                     0: {items: 1},
@@ -224,6 +218,28 @@ jQuery(document).ready(function () {
         // Partners carousel
         if (partnersCarousel.length) {
             partnersCarousel.owlCarousel({
+                autoplay: true,
+                loop: true,
+                margin: 30,
+                dots: false,
+                nav: true,
+                navText: [
+                    "<i class='fa fa-angle-left'></i>",
+                    "<i class='fa fa-angle-right'></i>"
+                ],
+                responsive: {
+                    0: {items: 2},
+                    479: {items: 3},
+                    768: {items: 4},
+                    991: {items: 4},
+                    1024: {items: 5},
+                    1280: {items: 6}
+                }
+            });
+        }
+        // Partners carousel
+        if (branchesCarousel.length) {
+            branchesCarousel.owlCarousel({
                 autoplay: true,
                 loop: true,
                 margin: 30,
