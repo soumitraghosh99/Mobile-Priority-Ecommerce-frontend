@@ -136,321 +136,432 @@
 
         <!-- CONTENT AREA -->
         <div class="content-area">
-
-            <!-- BREADCRUMBS -->
-            <section class="page-section breadcrumbs">
-                <div class="container">
-                    <div class="page-header">
-                        <h1>FAQ</h1>
-                    </div>
-                    <ul class="breadcrumb"></ul>
-                </div>
-            </section>
-            <!-- /BREADCRUMBS -->
-
             <!-- PAGE -->
-            <section class="page-section color">
+            <section class="page-section color pt-0">
+                <!-- FAQ Header -->
+                <div class="faq-header">
+                    <div class="faq-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h1 class="faq-title">Frequently Asked Questions</h1>
+                    <p class="faq-subtitle">Find answers to common questions about buying, selling, and
+                        exchanging pre-owned gadgets with Mobile Priority</p>
+
+                    <div class="search-box">
+                        <div class="position-relative">
+                            <input type="text" class="form-control" placeholder="Search for questions...">
+                            <button class="btn"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
                 <div class="container">
+                    <div class="faq-container">
+                        <!-- FAQ Categories -->
+                        <div class="category-tabs">
+                            <div class="category-tab active" data-category="all">All Questions</div>
+                            <div class="category-tab" data-category="buying">Buying</div>
+                            <div class="category-tab" data-category="selling">Selling</div>
+                            <div class="category-tab" data-category="exchange">Exchange</div>
+                            <div class="category-tab" data-category="shipping">Shipping & Delivery</div>
+                            <div class="category-tab" data-category="warranty">Warranty & Support</div>
+                        </div>
 
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
-                        libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis
-                        sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
-                        Vestibulum lacinia arcu eget nulla.</p>
+                        <!-- FAQ Accordion -->
+                        <div class="accordion-container">
+                            <div class="accordion" id="faqAccordion">
+                                <!-- Question 1 -->
+                                <div class="accordion-item" data-category="buying">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Are the devices at Mobile Priority certified and tested?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>Yes, absolutely! Every device at Mobile Priority undergoes a rigorous
+                                                30-point quality check process before being listed for sale. Our
+                                                certification process includes:</p>
+                                            <ul>
+                                                <li>Physical inspection for any damages or repairs</li>
+                                                <li>Functionality testing of all hardware components</li>
+                                                <li>Battery health assessment</li>
+                                                <li>Software performance evaluation</li>
+                                                <li>Network connectivity testing</li>
+                                                <li>Accessory verification</li>
+                                            </ul>
+                                            <p>Only devices that pass all quality checks receive our "Certified
+                                                Pre-Owned" badge and come with a detailed quality report.</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    <div class="panel-group accordion" id="accordionFaq">
-                        <div class="accordion-item panel panel-default mb-2">
-                            <h2 class="accordion-header panel-heading" id="headingFirst">
-                                <button class="accordion-button collapsed panel-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFirst" aria-expanded="false"
-                                    aria-controls="collapseFirst">
-                                    What are the delivery charges for orders from the
-                                    Online Shop?
-                                </button>
-                            </h2>
-                            <div id="collapseFirst" class="accordion-collapse collapse" aria-labelledby="headingFirst"
-                                data-bs-parent="#accordionFaq">
-                                <div class="accordion-body panel-body pt-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id convallis tellus.
-                                    Nulla aliquam in mi et convallis. Pellentesque rutrum feugiat ante ut imperdiet.
-                                    Vivamus et dolor nec nisl consectetur vulputate id non ante.
+                                <!-- Question 2 -->
+                                <div class="accordion-item" data-category="buying">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Do you offer warranty on pre-owned devices?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>Yes, we offer warranty on all our certified pre-owned devices. The
+                                                warranty period varies depending on the device category:</p>
+                                            <ul>
+                                                <li><strong>Mobile Phones:</strong> 6 months comprehensive warranty</li>
+                                                <li><strong>Laptops & Tablets:</strong> 3 months warranty on hardware
+                                                </li>
+                                                <li><strong>Smartwatches & DSLRs:</strong> 1 month functional warranty
+                                                </li>
+                                            </ul>
+                                            <p>For devices that are still covered under manufacturer's warranty, we
+                                                provide the original bill so you can claim service directly from
+                                                authorized service centers. Our warranty covers all manufacturing
+                                                defects and hardware failures (excluding physical damage, liquid damage,
+                                                or unauthorized repairs).</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 3 -->
+                                <div class="accordion-item" data-category="buying">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            What payment options do you accept?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>We offer multiple convenient payment options to ensure a smooth buying
+                                                experience:</p>
+                                            <ul>
+                                                <li><strong>Credit/Debit Cards:</strong> All major cards (Visa,
+                                                    MasterCard, RuPay)</li>
+                                                <li><strong>Net Banking:</strong> All major Indian banks</li>
+                                                <li><strong>UPI:</strong> Google Pay, PhonePe, Paytm, and other UPI apps
+                                                </li>
+                                                <li><strong>EMI Options:</strong> Available for devices above ₹15,000
+                                                    through partner banks and NBFCs</li>
+                                                <li><strong>Cash on Delivery:</strong> Available in select cities with
+                                                    additional verification</li>
+                                                <li><strong>Wallet Payments:</strong> Paytm, Amazon Pay, and other
+                                                    digital wallets</li>
+                                            </ul>
+                                            <p>All online transactions are secured with 128-bit SSL encryption for your
+                                                safety.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 4 -->
+                                <div class="accordion-item" data-category="shipping">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            What is your shipping policy and delivery timeline?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>We offer Pan-India shipping through trusted logistics partners. Our
+                                                delivery timelines are:</p>
+                                            <ul>
+                                                <li><strong>Metro Cities:</strong> 2-3 business days</li>
+                                                <li><strong>Tier 1 & 2 Cities:</strong> 3-5 business days</li>
+                                                <li><strong>Tier 3 Cities & Rural Areas:</strong> 5-7 business days</li>
+                                            </ul>
+                                            <p><strong>Shipping Charges:</strong></p>
+                                            <ul>
+                                                <li>Free shipping on all orders above ₹5,000</li>
+                                                <li>Flat ₹99 shipping for orders below ₹5,000</li>
+                                                <li>Express delivery (next day) available at additional ₹199</li>
+                                            </ul>
+                                            <p>All devices are securely packaged with multiple protective layers to
+                                                prevent damage during transit. You'll receive tracking details via SMS
+                                                and email once your order is shipped.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 5 -->
+                                <div class="accordion-item" data-category="selling">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            How can I sell my old device to Mobile Priority?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>Selling your old device to Mobile Priority is simple and transparent.
+                                                Follow these steps:</p>
+                                            <ol>
+                                                <li><strong>Get Instant Quote:</strong> Visit our website or app, select
+                                                    your device model, and answer a few questions about its condition to
+                                                    get an instant price quote</li>
+                                                <li><strong>Schedule Inspection:</strong> Book an appointment at our
+                                                    nearest store or opt for doorstep pickup (available in select
+                                                    cities)</li>
+                                                <li><strong>Device Verification:</strong> Our experts will physically
+                                                    inspect your device to verify its condition</li>
+                                                <li><strong>Final Offer:</strong> Receive the final offer based on the
+                                                    actual condition of your device</li>
+                                                <li><strong>Instant Payment:</strong> Once you accept the offer, receive
+                                                    payment instantly via cash, bank transfer, or UPI</li>
+                                            </ol>
+                                            <p><strong>Note:</strong> Please ensure your device is factory reset, and
+                                                you have removed all personal data before bringing it for inspection.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 6 -->
+                                <div class="accordion-item" data-category="selling">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            What factors determine the price of my old device?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>We consider multiple factors to offer you the best price for your old
+                                                device:</p>
+                                            <ul>
+                                                <li><strong>Device Model & Age:</strong> Newer models and popular brands
+                                                    fetch better prices</li>
+                                                <li><strong>Physical Condition:</strong> No scratches/dents vs minor vs
+                                                    major damages</li>
+                                                <li><strong>Functional Condition:</strong> Working condition of all
+                                                    features (camera, speakers, sensors, etc.)</li>
+                                                <li><strong>Battery Health:</strong> Battery capacity and performance
+                                                </li>
+                                                <li><strong>Accessories Included:</strong> Original charger, cable, box,
+                                                    earphones increase value</li>
+                                                <li><strong>Warranty Status:</strong> Devices under manufacturer
+                                                    warranty get better valuation</li>
+                                                <li><strong>Market Demand:</strong> Current market trends and demand for
+                                                    specific models</li>
+                                            </ul>
+                                            <p>We guarantee the best market price with complete transparency in our
+                                                valuation process.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 7 -->
+                                <div class="accordion-item" data-category="exchange">
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            How does the device exchange program work?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>Our device exchange program makes upgrading easy and affordable:</p>
+                                            <ol>
+                                                <li><strong>Select New Device:</strong> Choose the device you want to
+                                                    upgrade to</li>
+                                                <li><strong>Value Your Old Device:</strong> Use our online valuation
+                                                    tool to get an instant quote for your current device</li>
+                                                <li><strong>Calculate Difference:</strong> The system will show you the
+                                                    amount to pay (new device price minus old device value)</li>
+                                                <li><strong>Choose Exchange Method:</strong>
+                                                    <ul>
+                                                        <li>In-store exchange at our nearest outlet</li>
+                                                        <li>Home pickup and delivery (available in select cities)</li>
+                                                        <li>Mail-in exchange program</li>
+                                                    </ul>
+                                                </li>
+                                                <li><strong>Complete Transaction:</strong> Pay the difference amount and
+                                                    receive your new device</li>
+                                            </ol>
+                                            <p><strong>Benefits:</strong></p>
+                                            <ul>
+                                                <li>No hidden charges or deductions</li>
+                                                <li>Same-day exchange at our stores</li>
+                                                <li>Special exchange bonuses on select models</li>
+                                                <li>Free data transfer assistance at our stores</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 8 -->
+                                <div class="accordion-item" data-category="warranty">
+                                    <h2 class="accordion-header" id="headingEight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                            aria-expanded="false" aria-controls="collapseEight">
+                                            What is covered under your warranty and how to claim it?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p><strong>Warranty Coverage:</strong></p>
+                                            <ul>
+                                                <li>Manufacturing defects in hardware components</li>
+                                                <li>Battery performance issues (not for normal wear and tear)</li>
+                                                <li>Speaker, microphone, and camera malfunctions</li>
+                                                <li>Display issues (dead pixels, touch problems)</li>
+                                                <li>Charging port and connectivity problems</li>
+                                            </ul>
+
+                                            <p><strong>Not Covered:</strong></p>
+                                            <ul>
+                                                <li>Physical damage (cracks, dents, liquid damage)</li>
+                                                <li>Theft or loss of device</li>
+                                                <li>Issues caused by unauthorized repairs or modifications</li>
+                                                <li>Normal battery degradation over time</li>
+                                                <li>Software issues solvable by reset/update</li>
+                                            </ul>
+
+                                            <p><strong>How to Claim Warranty:</strong></p>
+                                            <ol>
+                                                <li>Contact our support team via call, email, or WhatsApp</li>
+                                                <li>Provide your order ID and device details</li>
+                                                <li>Describe the issue with photos/videos if possible</li>
+                                                <li>Our team will guide you to the nearest service center or arrange
+                                                    pickup</li>
+                                                <li>Standard repair time: 3-7 business days</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 9 -->
+                                <div class="accordion-item" data-category="shipping">
+                                    <h2 class="accordion-header" id="headingNine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                            aria-expanded="false" aria-controls="collapseNine">
+                                            Can I return or exchange a device after purchase?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNine" class="accordion-collapse collapse"
+                                        aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>Yes, we offer a hassle-free return and exchange policy to ensure complete
+                                                customer satisfaction.</p>
+
+                                            <p><strong>Return Policy (7 Days):</strong></p>
+                                            <ul>
+                                                <li>You can return the device within 7 days of delivery</li>
+                                                <li>Device must be in original condition with all accessories</li>
+                                                <li>No physical damage or signs of usage</li>
+                                                <li>Original packaging must be intact</li>
+                                                <li>Refund processed within 5-7 business days</li>
+                                            </ul>
+
+                                            <p><strong>Exchange Policy (10 Days):</strong></p>
+                                            <ul>
+                                                <li>Exchange for another device within 10 days</li>
+                                                <li>Device must be in perfect working condition</li>
+                                                <li>All original accessories must be included</li>
+                                                <li>Price difference will be adjusted</li>
+                                                <li>One exchange per order allowed</li>
+                                            </ul>
+
+                                            <p><strong>Return/Exchange Process:</strong></p>
+                                            <ol>
+                                                <li>Contact our customer support within the return/exchange period</li>
+                                                <li>Provide order details and reason for return/exchange</li>
+                                                <li>We'll arrange pickup from your address (free service)</li>
+                                                <li>After verification, refund or exchange will be processed</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 10 -->
+                                <div class="accordion-item" data-category="buying">
+                                    <h2 class="accordion-header" id="headingTen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                            aria-expanded="false" aria-controls="collapseTen">
+                                            Do you provide original bills and accessories with devices?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p>We provide complete transparency about what's included with each device
+                                                purchase:</p>
+
+                                            <p><strong>Original Bill:</strong></p>
+                                            <ul>
+                                                <li>For devices still under manufacturer warranty, we provide the
+                                                    original purchase bill</li>
+                                                <li>For other devices, we provide Mobile Priority's warranty bill</li>
+                                                <li>All bills are GST compliant and valid for warranty claims</li>
+                                            </ul>
+
+                                            <p><strong>Accessories Included:</strong></p>
+                                            <ul>
+                                                <li><strong>Grade A (Like New) Devices:</strong> Original charger,
+                                                    cable, and earphones (if originally included)</li>
+                                                <li><strong>Grade B (Good) Devices:</strong> High-quality compatible
+                                                    charger and cable</li>
+                                                <li><strong>Grade C (Fair) Devices:</strong> Basic charger and cable
+                                                </li>
+                                                <li>Original box included based on availability</li>
+                                            </ul>
+
+                                            <p><strong>Device Grading System:</strong></p>
+                                            <ul>
+                                                <li><strong>Grade A:</strong> No visible scratches, 90%+ battery health,
+                                                    all functions perfect</li>
+                                                <li><strong>Grade B:</strong> Minor scratches, 80%+ battery health, all
+                                                    functions working</li>
+                                                <li><strong>Grade C:</strong> Visible signs of use, 70%+ battery health,
+                                                    fully functional</li>
+                                            </ul>
+
+                                            <p>The exact accessories included are clearly mentioned in each product
+                                                listing.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item panel panel-default mb-2">
-                            <h2 class="accordion-header panel-heading" id="headingSec">
-                                <button class="accordion-button collapsed panel-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseSec" aria-expanded="false"
-                                    aria-controls="collapseSec">
-                                    What are the delivery charges for orders from the
-                                    Online Shop?
-                                </button>
-                            </h2>
-                            <div id="collapseSec" class="accordion-collapse collapse" aria-labelledby="headingSec"
-                                data-bs-parent="#accordionFaq">
-                                <div class="accordion-body panel-body pt-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id convallis tellus.
-                                    Nulla aliquam in mi et convallis. Pellentesque rutrum feugiat ante ut imperdiet.
-                                    Vivamus et dolor nec nisl consectetur vulputate id non ante.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item panel panel-default mb-2">
-                            <h2 class="accordion-header panel-heading" id="headingthird">
-                                <button class="accordion-button collapsed panel-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThird" aria-expanded="false"
-                                    aria-controls="collapseThird">
-                                    What are the delivery charges for orders from the
-                                    Online Shop?
-                                </button>
-                            </h2>
-                            <div id="collapseThird" class="accordion-collapse collapse" aria-labelledby="headingthird"
-                                data-bs-parent="#accordionFaq">
-                                <div class="accordion-body panel-body pt-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id convallis tellus.
-                                    Nulla aliquam in mi et convallis. Pellentesque rutrum feugiat ante ut imperdiet.
-                                    Vivamus et dolor nec nisl consectetur vulputate id non ante.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item panel panel-default mb-2">
-                            <h2 class="accordion-header panel-heading" id="headingForth">
-                                <button class="accordion-button collapsed panel-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false"
-                                    aria-controls="collapseFourth">
-                                    What are the delivery charges for orders from the
-                                    Online Shop?
-                                </button>
-                            </h2>
-                            <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingForth"
-                                data-bs-parent="#accordionFaq">
-                                <div class="accordion-body panel-body pt-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id convallis tellus.
-                                    Nulla aliquam in mi et convallis. Pellentesque rutrum feugiat ante ut imperdiet.
-                                    Vivamus et dolor nec nisl consectetur vulputate id non ante.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item panel panel-default mb-2">
-                            <h2 class="accordion-header panel-heading" id="headingFive">
-                                <button class="accordion-button collapsed panel-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                                    aria-controls="collapseFive">
-                                    What are the delivery charges for orders from the
-                                    Online Shop?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionFaq">
-                                <div class="accordion-body panel-body pt-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id convallis tellus.
-                                    Nulla aliquam in mi et convallis. Pellentesque rutrum feugiat ante ut imperdiet.
-                                    Vivamus et dolor nec nisl consectetur vulputate id non ante.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item panel panel-default mb-2">
-                            <h2 class="accordion-header panel-heading" id="headingSix">
-                                <button class="accordion-button collapsed panel-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                                    aria-controls="collapseSix">
-                                    What are the delivery charges for orders from the
-                                    Online Shop?
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#accordionFaq">
-                                <div class="accordion-body panel-body pt-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id convallis tellus.
-                                    Nulla aliquam in mi et convallis. Pellentesque rutrum feugiat ante ut imperdiet.
-                                    Vivamus et dolor nec nisl consectetur vulputate id non ante.
-                                </div>
+
+                        <!-- Contact CTA -->
+                        <div class="contact-cta">
+                            <h3>Still have questions?</h3>
+                            <p>Can't find the answer you're looking for? Our customer support team is here to help you
+                                with any queries about buying, selling, or exchanging devices.</p>
+                            <button class="btn-cta">
+                                <i class="fas fa-headset me-2"></i>Contact Customer Support
+                            </button>
+                            <div class="mt-4">
+                                <p class="mb-1"><i class="fas fa-phone-alt me-2"></i> Call us: +91 98765 43210</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i> Email: support@mobilepriority.in
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- /PAGE -->
-
-            <!-- Top product Section start -->
-            <section class="page-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="product-list">
-                                <a class="btn btn-theme btn-title-more" href="#">See All</a>
-                                <h4 class="block-title"><span>Top <i class="fst-normal">Sellers</i></span></h4>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product1.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product2.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product3.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-list">
-                                <a class="btn btn-theme btn-title-more" href="#">See All</a>
-                                <h4 class="block-title"><span>Top <i class="fst-normal">Accessories</i></span></h4>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product3.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product2.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product1.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-list">
-                                <a class="btn btn-theme btn-title-more" href="#">See All</a>
-                                <h4 class="block-title"><span>Top <i class="fst-normal">Newest</i></span></h4>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product1.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product2.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <a class="pull-left media-link" href="#">
-                                        <img class="media-object" src="assets/img/Product/product3.jpg" alt="">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
-                                        <div class="rating">
-                                            <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                        </div>
-                                        <div class="price"><ins>₹400.00</ins> <del>₹425.00</del></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Top product Section end -->
-
         </div>
         <!-- /CONTENT AREA -->
 
@@ -568,6 +679,67 @@
 
     <!-- JS Page Level -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Category filter functionality
+            const categoryTabs = document.querySelectorAll('.category-tab');
+            const faqItems = document.querySelectorAll('.accordion-item');
+
+            categoryTabs.forEach(tab => {
+                tab.addEventListener('click', function () {
+                    // Remove active class from all tabs
+                    categoryTabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+
+                    const category = this.getAttribute('data-category');
+
+                    // Filter FAQ items
+                    faqItems.forEach(item => {
+                        const itemCategory = item.getAttribute('data-category');
+
+                        if (category === 'all' || itemCategory === category) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+
+                    // Show category titles
+                    const categoryTitles = document.querySelectorAll('.faq-category-title');
+                    if (category === 'all') {
+                        categoryTitles.forEach(title => title.style.display = 'inline-block');
+                    } else {
+                        categoryTitles.forEach(title => title.style.display = 'none');
+                    }
+                });
+            });
+
+            // Search functionality
+            const searchInput = document.querySelector('.search-box input');
+            searchInput.addEventListener('input', function () {
+                const searchTerm = this.value.toLowerCase();
+
+                faqItems.forEach(item => {
+                    const question = item.querySelector('.accordion-button').textContent.toLowerCase();
+                    const answer = item.querySelector('.accordion-body').textContent.toLowerCase();
+
+                    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+
+            // Auto-open first accordion item
+            const firstAccordionButton = document.querySelector('.accordion-button');
+            if (firstAccordionButton) {
+                firstAccordionButton.click();
+            }
+        });
+    </script>
 
 </body>
 
