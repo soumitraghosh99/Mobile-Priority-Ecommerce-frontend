@@ -228,8 +228,8 @@ jQuery(document).ready(function () {
                     "<i class='fa fa-angle-right'></i>"
                 ],
                 responsive: {
-                    0: {items: 2},
-                    479: {items: 3},
+                    0: {items: 3, margin: 15},
+                    479: {items: 3, margin: 15},
                     768: {items: 4},
                     991: {items: 4},
                     1024: {items: 5},
