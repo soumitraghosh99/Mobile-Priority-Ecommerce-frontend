@@ -42,7 +42,14 @@ Adjust this section based on your actual project:
 ## 🌐 Live Demo
 
 - **Live URL:**  
-
+  Home - https://mobilepriority.netlify.app/
+  About - https://mobilepriority.netlify.app/about
+  Shop - https://mobilepriority.netlify.app/shop
+  Product Details - https://mobilepriority.netlify.app/product-details
+  Contact - https://mobilepriority.netlify.app/contact
+  Faq - https://mobilepriority.netlify.app/faq
+  Log in - https://mobilepriority.netlify.app/login
+  Wishlist - https://mobilepriority.netlify.app/wishlist
 ---
 
 ## 📸 Screenshots
