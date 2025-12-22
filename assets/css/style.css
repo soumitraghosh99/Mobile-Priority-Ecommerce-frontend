@@ -4671,10 +4671,6 @@ input[type=checkbox] {
   color: #232323;
 }
 
-.thumbnail.category.hover .media-link:after,
-.thumbnail.category:hover .media-link:after {
-  background-color: rgba(0, 0, 0, 0);
-}
 
 .top-products-carousel .buttons .btn {
   padding: 5px;
@@ -7740,9 +7736,6 @@ input[type=checkbox] {
   opacity: 1;
 }
 
-.product-list .media-link:hover:after {
-  background-color: rgba(0, 177, 106, 0.7);
-}
 
 .product-list img.media-object {
   width: auto;
@@ -8202,6 +8195,14 @@ input[type=checkbox] {
   position: relative;
   overflow: hidden;
   text-align: center;
+  width: 70px;
+  height: 70px;
+}
+.wishlist .media-link img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%; 
 }
 
 .wishlist .media-link .fa {
@@ -9665,4 +9666,32 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+/* ðŸ”” Announcement / Marquee Bar */
+.announcement-bar {
+  background: linear-gradient(90deg, #212529, #e50e0a);
+  color: #fff;
+  padding: 6px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.announcement-content {
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 16px;
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.announcement-bar:hover .announcement-content {
+  animation-play-state: paused;
 }
