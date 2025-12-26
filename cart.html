@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Priority</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+
+    <!-- CSS Global -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body id="home" class="wide">
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <div id="preloader-title">Loading</div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <!-- Header top bar -->
+        <div class="top-bar d-lg-block d-none">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="list-inline d-inline-flex align-items-center gap-2">
+                        <li class="icon-user"><a href="login.html"><img src="assets/img/icon-1.png" alt="" />
+                                <span>Login</span></a></li>
+                        <li class="icon-form"><a href="login.html"><img src="assets/img/icon-2.png" alt="" /> <span>Not
+                                    a Member? <span class="colored">Sign Up</span></span></a></li>
+                        <li><a href="mailto:support@mobilepriority.co.in"><i class="fa fa-envelope"></i>
+                                <span>support@mobilepriority.co.in</span></a></li>
+                    </ul>
+
+                    <ul class="list-inline d-inline-flex align-items-center justify-content-end gap-2">
+                        <li class="hidden-xs"><a href="contact.html"><span>Contact</span></a></li>
+                        <li class="hidden-xs"><a href="faq.html"><span>FAQ</span></a></li>
+                        <li class="hidden-xs"><a href="#"> <span>Join Our Franchise Family</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /Header top bar -->
+
+        <!-- HEADER -->
+        <header class="header fixed">
+            <div class="header-wrapper">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Mobile Priority" /></a>
+                    </div>
+                    <!-- /Logo -->
+
+                    <!-- Header search -->
+                    <div class="header-search">
+                        <input class="form-control" type="text" placeholder="What are you looking?" />
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <!-- /Header search -->
+
+                    <!-- Header shopping cart -->
+                    <div class="header-cart">
+                        <div class="cart-wrapper">
+                            <a href="wishlist.html" class="btn btn-theme-transparent hidden-xs hidden-sm"><i
+                                    class="fa fa-heart"></i></a>
+                            <a href="#" class="btn btn-theme-transparent"><i class="fa fa-shopping-cart"></i> <span
+                                    class="hidden-xs"> 0 item(s)</span></a>
+                            <!-- Mobile menu toggle button -->
+                            <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                            <!-- /Mobile menu toggle button -->
+                        </div>
+                    </div>
+                    <!-- Header shopping cart -->
+                </div>
+            </div>
+            <div class="navigation-wrapper">
+                <div class="container">
+                    <!-- Navigation -->
+                    <nav class="navigation closed clearfix">
+                        <div class="d-flex justify-content-between align-items-center d-lg-none d-block bg-white p-2">
+                            <a href="index.html" style="max-width: 90px;"><img src="assets/img/logo.png"
+                                    class="img-fluid" alt="Mobile Priority" /></a>
+                            <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                        </div>
+
+                        <ul class="nav sf-menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Product</a></li>
+                            <li><a href="category.html">Our Store</a></li>
+                            <li><a href="category.html">Sell Your Phone</a></li>
+                            <li><a href="category.html">Accessories</a></li>
+                            <li class="d-block d-sm-none"><a href="contact.html">Contact</a></li>
+                            <li class="d-block d-sm-none"><a href="faq.html">FAQ</a></li>
+                            <li class="d-block d-sm-none"><a href="#"> Join Our Franchise Family</a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Login</span></a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Not a Member? <span
+                                            class="colored">Sign Up</span></span></a></li>
+                        </ul>
+                    </nav>
+                    <!-- /Navigation -->
+                </div>
+            </div>
+        </header>
+        <!-- /HEADER -->
+        <!-- CONTENT AREA -->
+        <div class="content-area">
+
+            <!-- BREADCRUMBS -->
+            <section class="page-section breadcrumbs">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Shopping Cart</h1>
+                    </div>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li class="active">Shopping Cart</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- /BREADCRUMBS -->
+
+            <!-- Cart Section start -->
+            <section class="page-section color">
+                <div class="container">
+                    <div class="cart">
+                        <!-- Cart Header -->
+                        <header class="cart__header">
+                            <div class="cart__title">
+                                <div class="cart__title-text">
+                                    <i class="fas fa-shopping-cart cart__icon"></i>
+                                    Your Shopping Cart
+                                </div>
+                                <div class="cart__item-count">3 Items</div>
+                            </div>
+                        </header>
+
+                        <div class="cart__grid">
+                            <!-- Cart Items Section -->
+                            <main class="cart__content">
+                                <div class="cart__items">
+                                    <!-- Cart Item 1: Mobile Phone -->
+                                    <article class="cart-item">
+                                        <div class="cart-item__image">
+                                            <img src="assets/img/Product/product1.jpg" alt="Samsung Galaxy S21">
+                                        </div>
+                                        <div class="cart-item__content">
+                                            <div class="cart-item__header">
+                                                <div class="cart-item__info">
+                                                    <h3 class="cart-item__title">Samsung Galaxy S21 5G</h3>
+                                                    <p class="cart-item__subtitle">8GB RAM, 128GB Storage | Phantom
+                                                        Black | Certified Pre-Owned</p>
+                                                    <span class="cart-item__brand">Samsung</span>
+                                                </div>
+                                                <button class="cart-item__remove" title="Remove item">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+
+                                            <div class="cart-item__specs">
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-certificate cart-item__spec-icon"></i>
+                                                    <span>Certified Pre-Owned</span>
+                                                </div>
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-shield-alt cart-item__spec-icon"></i>
+                                                    <span>6 Months Warranty</span>
+                                                </div>
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-battery-full cart-item__spec-icon"></i>
+                                                    <span>92% Battery Health</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="cart-item__footer">
+                                                <div class="cart-item__quantity">
+                                                    <button class="cart-item__quantity-btn">-</button>
+                                                    <span class="cart-item__quantity-value">1</span>
+                                                    <button class="cart-item__quantity-btn">+</button>
+                                                </div>
+                                                <div class="cart-item__pricing">
+                                                    <div class="cart-item__price">₹34,999</div>
+                                                    <div class="cart-item__price cart-item__price--original">₹54,999
+                                                    </div>
+                                                    <span class="cart-item__discount">Save ₹20,000</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Cart Item 2: Protection Plan -->
+                                    <article class="cart-item cart-item--protection">
+                                        <div class="cart-item__image">
+                                            <div
+                                                style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                                                <i class="fas fa-shield-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="cart-item__content">
+                                            <div class="cart-item__header">
+                                                <div class="cart-item__info">
+                                                    <h3 class="cart-item__title">
+                                                        Mobile Priority Protection Pro
+                                                        <span
+                                                            class="cart-item__badge cart-item__badge--addon">ADD-ON</span>
+                                                    </h3>
+                                                    <p class="cart-item__subtitle">12 Months Complete Protection |
+                                                        Covers Screen, Liquid & Accidental Damage</p>
+                                                </div>
+                                                <button class="cart-item__remove" title="Remove item">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+
+                                            <div class="cart-item__specs">
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-check-circle cart-item__spec-icon"></i>
+                                                    <span>Screen Damage Coverage</span>
+                                                </div>
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-check-circle cart-item__spec-icon"></i>
+                                                    <span>Liquid Damage Protection</span>
+                                                </div>
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-check-circle cart-item__spec-icon"></i>
+                                                    <span>Extended Warranty</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="cart-item__footer">
+                                                <div class="cart-item__quantity">
+                                                    <button class="cart-item__quantity-btn">-</button>
+                                                    <span class="cart-item__quantity-value">1</span>
+                                                    <button class="cart-item__quantity-btn">+</button>
+                                                </div>
+                                                <div class="cart-item__pricing">
+                                                    <div class="cart-item__price">₹2,499</div>
+                                                    <div class="cart-item__price cart-item__price--original">₹3,999
+                                                    </div>
+                                                    <span class="cart-item__discount">Save ₹1,500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <!-- Cart Item 3: Another Mobile -->
+                                    <article class="cart-item">
+                                        <div class="cart-item__image">
+                                            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_600x.png?v=1642405564"
+                                                alt="OnePlus 9">
+                                        </div>
+                                        <div class="cart-item__content">
+                                            <div class="cart-item__header">
+                                                <div class="cart-item__info">
+                                                    <h3 class="cart-item__title">OnePlus 9 5G</h3>
+                                                    <p class="cart-item__subtitle">12GB RAM, 256GB Storage | Winter Mist
+                                                        | Certified Pre-Owned</p>
+                                                    <span class="cart-item__brand">OnePlus</span>
+                                                </div>
+                                                <button class="cart-item__remove" title="Remove item">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+
+                                            <div class="cart-item__specs">
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-certificate cart-item__spec-icon"></i>
+                                                    <span>Certified Pre-Owned</span>
+                                                </div>
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-shield-alt cart-item__spec-icon"></i>
+                                                    <span>6 Months Warranty</span>
+                                                </div>
+                                                <div class="cart-item__spec">
+                                                    <i class="fas fa-battery-full cart-item__spec-icon"></i>
+                                                    <span>88% Battery Health</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="cart-item__footer">
+                                                <div class="cart-item__quantity">
+                                                    <button class="cart-item__quantity-btn">-</button>
+                                                    <span class="cart-item__quantity-value">1</span>
+                                                    <button class="cart-item__quantity-btn">+</button>
+                                                </div>
+                                                <div class="cart-item__pricing">
+                                                    <div class="cart-item__price">₹31,999</div>
+                                                    <div class="cart-item__price cart-item__price--original">₹49,999
+                                                    </div>
+                                                    <span class="cart-item__discount">Save ₹18,000</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </main>
+
+                            <!-- Cart Summary Section -->
+                            <aside class="cart-summary">
+                                <h3 class="cart-summary__title">Order Summary</h3>
+
+                                <div class="cart-summary__row">
+                                    <span class="cart-summary__label">Subtotal (3 items)</span>
+                                    <span class="cart-summary__value">₹69,497</span>
+                                </div>
+
+                                <div class="cart-summary__row">
+                                    <span class="cart-summary__label">Shipping</span>
+                                    <span class="cart-summary__value">FREE</span>
+                                </div>
+
+                                <div class="cart-summary__row">
+                                    <span class="cart-summary__label">Protection Plan</span>
+                                    <span class="cart-summary__value">₹2,499</span>
+                                </div>
+
+                                <div class="cart-summary__row cart-summary__row--discount">
+                                    <span class="cart-summary__label">Discount</span>
+                                    <span class="cart-summary__value">-₹39,500</span>
+                                </div>
+
+                                <div class="cart-summary__row">
+                                    <span class="cart-summary__label">GST (18%)</span>
+                                    <span class="cart-summary__value">₹5,822</span>
+                                </div>
+
+                                <div class="cart-summary__row cart-summary__row--total">
+                                    <span class="cart-summary__label">Total Amount</span>
+                                    <span class="cart-summary__value">₹38,318</span>
+                                </div>
+
+                                <div class="cart-summary__emi">
+                                    <i class="fas fa-rupee-sign cart-summary__emi-icon"></i>
+                                    <span class="cart-summary__emi-text">
+                                        EMI available starting from
+                                        <span class="cart-summary__emi-highlight">₹2,128/month</span>
+                                    </span>
+                                </div>
+
+                                <button class="cart-summary__checkout">
+                                    <i class="fas fa-lock"></i>
+                                    Proceed to Checkout
+                                </button>
+
+                                <div class="cart-summary__secure">
+                                    <i class="fas fa-shield-alt cart-summary__secure-icon"></i>
+                                    <span>Secure SSL Encrypted Checkout</span>
+                                </div>
+
+                                <div style="margin-top: 25px;">
+                                    <div class="cart-summary__row">
+                                        <span class="cart-summary__label">Delivery Time</span>
+                                        <span class="cart-summary__value">2-3 Business Days</span>
+                                    </div>
+                                    <div class="cart-summary__row">
+                                        <span class="cart-summary__label">Return Policy</span>
+                                        <span class="cart-summary__value">7 Days Return</span>
+                                    </div>
+                                    <div class="cart-summary__row">
+                                        <span class="cart-summary__label">Warranty</span>
+                                        <span class="cart-summary__value">6 Months on all devices</span>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <!-- Cart Actions -->
+                        <section class="cart-actions">
+                            <h3 class="cart-actions__title">Continue Shopping</h3>
+                            <div class="cart-actions__buttons">
+                                <a href="#" class="cart-actions__btn">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Mobile Phones
+                                </a>
+                                <a href="#" class="cart-actions__btn">
+                                    <i class="fas fa-laptop"></i>
+                                    Laptops
+                                </a>
+                                <a href="#" class="cart-actions__btn">
+                                    <i class="fas fa-tablet-alt"></i>
+                                    Tablets
+                                </a>
+                                <a href="#" class="cart-actions__btn">
+                                    <i class="fas fa-headphones"></i>
+                                    Accessories
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <!-- /CONTENT AREA -->
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="footer-widgets">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="widget">
+                                    <div class="d-flex align-items-center mb-3 footer-logo">
+                                        <img src="assets/img/logo.png" alt="Mobile Priority Logo" class="img-fluid">
+
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                        sollicitudin
+                                        ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor
+                                        sit amet,
+                                        consectetur adipiscing elit.</p>
+                                    <ul class="social-icons">
+                                        <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="widget widget-categories">
+                                    <h4 class="widget-title">Information</h4>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Delivery Information</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Terms and Conditions</a></li>
+                                        <li><a href="#">Private Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="widget widget-tag-cloud">
+                                    <h4 class="widget-title">Item Tags</h4>
+                                    <ul>
+                                        <li><a href="#">SAMSUMG</a></li>
+                                        <li><a href="#">Xiaomi</a></li>
+                                        <li><a href="#">APPLE</a></li>
+                                        <li><a href="#">OPPO</a></li>
+                                        <li><a href="#">ONEPLUS</a></li>
+                                        <li><a href="#">GOOGLE</a></li>
+                                        <li><a href="#">NOKIA</a></li>
+                                        <li><a href="#">VIVO</a></li>
+                                        <li><a href="#">NOTHING</a></li>
+                                        <li><a href="#">INFINIX</a></li>
+                                        <li><a href="#">TECNO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="widget">
+                                    <h4 class="widget-title">Contact</h4>
+                                    <ul class="d-flex flex-column gap-2">
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-location-dot me-2"></i> 79A,
+                                                Shelter
+                                                Apartment, Old Calcutta Rd, Sumangalapuri, Anandapuri,
+                                                Barrackpore, West
+                                                Bengal 700123
+                                        </li></a>
+                                        <li><a href="#"><i class="fa-solid fa-phone me-2"></i> +91 6291701988
+                                        </li></a>
+                                        <li><a href="#"><i class="fa-brands fa-whatsapp me-2"></i> +91
+                                                6291701988</li></a>
+                                        <li><a href="#"><i class="fa-regular fa-envelope me-2"></i>
+                                                support@mobilepriority.co.in </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-meta">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="copyright">Copyright 2025 Mobile Priority | All Rights Reserved
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="payments">
+                                    <ul>
+                                        <li><img src="assets/img/preview/payments/visa.jpg" alt="" /></li>
+                                        <li><img src="assets/img/preview/payments/mastercard.jpg" alt="" /></li>
+                                        <li><img src="assets/img/preview/payments/paypal.jpg" alt="" /></li>
+                                        <li><img src="assets/img/preview/payments/american-express.jpg" alt="" /></li>
+                                        <li><img src="assets/img/preview/payments/visa-electron.jpg" alt="" />
+                                        </li>
+                                        <li><img src="assets/img/preview/payments/maestro.jpg" alt="" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- /FOOTER -->
+            <div id="to-top" class="to-top"><i class="fa fa-angle-up"></i></div>
+        </div>
+        <!-- /WRAPPER -->
+
+        <!-- JS Global -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.sticky.min.js"></script>
+        <!-- JS Page Level -->
+        <script src="assets/js/script.js"></script>
+</body>
+
+</html>

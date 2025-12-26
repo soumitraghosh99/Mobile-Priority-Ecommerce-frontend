@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Priority</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+
+    <!-- CSS Global -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="home" class="wide">
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <div id="preloader-title">Loading</div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <!-- Header top bar -->
+        <div class="top-bar d-lg-block d-none">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="list-inline d-inline-flex align-items-center gap-2">
+                        <li class="icon-user"><a href="login.html"><img src="assets/img/icon-1.png" alt="" />
+                                <span>Login</span></a></li>
+                        <li class="icon-form"><a href="login.html"><img src="assets/img/icon-2.png" alt="" /> <span>Not
+                                    a Member? <span class="colored">Sign Up</span></span></a></li>
+                        <li><a href="mailto:support@mobilepriority.co.in"><i class="fa fa-envelope"></i>
+                                <span>support@mobilepriority.co.in</span></a></li>
+                    </ul>
+
+                    <ul class="list-inline d-inline-flex align-items-center justify-content-end gap-2">
+                        <li class="hidden-xs"><a href="contact.html"><span>Contact</span></a></li>
+                        <li class="hidden-xs"><a href="faq.html"><span>FAQ</span></a></li>
+                        <li class="hidden-xs"><a href="#"> <span>Join Our Franchise Family</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /Header top bar -->
+
+        <!-- HEADER -->
+        <header class="header fixed">
+            <div class="header-wrapper">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Mobile Priority" /></a>
+                    </div>
+                    <!-- /Logo -->
+
+                    <!-- Header search -->
+                    <div class="header-search">
+                        <input class="form-control" type="text" placeholder="What are you looking?" />
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <!-- /Header search -->
+
+                    <!-- Header shopping cart -->
+                    <div class="header-cart">
+                        <div class="cart-wrapper">
+                            <a href="wishlist.html" class="btn btn-theme-transparent hidden-xs hidden-sm"><i
+                                    class="fa fa-heart"></i></a>
+                            <a href="#" class="btn btn-theme-transparent"><i class="fa fa-shopping-cart"></i> <span
+                                    class="hidden-xs"> 0 item(s)</span></a>
+                            <!-- Mobile menu toggle button -->
+                            <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                            <!-- /Mobile menu toggle button -->
+                        </div>
+                    </div>
+                    <!-- Header shopping cart -->
+                </div>
+            </div>
+            <div class="navigation-wrapper">
+                <div class="container">
+                    <!-- Navigation -->
+                    <nav class="navigation closed clearfix">
+                        <div class="d-flex justify-content-between align-items-center d-lg-none d-block bg-white p-2">
+                            <a href="index.html" style="max-width: 90px;"><img src="assets/img/logo.png"
+                                    class="img-fluid" alt="Mobile Priority" /></a>
+                            <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                        </div>
+
+                        <ul class="nav sf-menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Product</a></li>
+                            <li><a href="category.html">Our Store</a></li>
+                            <li><a href="category.html">Sell Your Phone</a></li>
+                            <li><a href="category.html">Accessories</a></li>
+                            <li class="d-block d-sm-none"><a href="contact.html">Contact</a></li>
+                            <li class="d-block d-sm-none"><a href="faq.html">FAQ</a></li>
+                            <li class="d-block d-sm-none"><a href="#"> Join Our Franchise Family</a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Login</span></a></li>
+                            <li class="d-block d-sm-none"><a href="login.html"><span>Not a Member? <span
+                                            class="colored">Sign Up</span></span></a></li>
+                        </ul>
+                    </nav>
+                    <!-- /Navigation -->
+                </div>
+            </div>
+        </header>
+        <!-- /HEADER -->
+
+        <!-- CONTENT AREA -->
+        <div class="content-area">
+
+            <!-- BREADCRUMBS -->
+            <section class="page-section breadcrumbs">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Sell Your Phone</h1>
+                    </div>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Sell Your Phone</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- /BREADCRUMBS -->
+
+            <!-- Sell your phone Section Start -->
+            <section class="page-section color pb-2">
+                <div class="container">
+                    <div class="sell-device-isolated-page">
+                        <div class="sell-device-wrapper">
+                            <!-- Form Container -->
+                            <div class="sell-device-form-container">
+                                <form class="sell-device-form-inner" id="sellDeviceForm">
+                                    <!-- Section 1: Seller Details -->
+                                    <div class="sell-device-section">
+                                        <h2 class="sell-device-section-title">
+                                            <span>1</span> Seller Details
+                                        </h2>
+
+                                        <div class="sell-device-form-grid">
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceVendorName">Vendor Name</label>
+                                                <input type="text" id="sellDeviceVendorName"
+                                                    class="sell-device-form-control" placeholder="e.g., Rahul Verma">
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceEmail">Email Address</label>
+                                                <input type="email" id="sellDeviceEmail"
+                                                    class="sell-device-form-control"
+                                                    placeholder="e.g., rahul@example.com">
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceStoreName">Store Name (if any)</label>
+                                                <input type="text" id="sellDeviceStoreName"
+                                                    class="sell-device-form-control" placeholder="e.g., RV Mobiles">
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceMobile">Mobile Number</label>
+                                                <input type="tel" id="sellDeviceMobile" class="sell-device-form-control"
+                                                    placeholder="10-digit mobile number" maxlength="10">
+                                                <div class="sell-device-form-hint">Enter exactly 10 digits.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Section 2: Device Information -->
+                                    <div class="sell-device-section">
+                                        <h2 class="sell-device-section-title">
+                                            <span>2</span> Device Information
+                                        </h2>
+
+                                        <div class="sell-device-form-grid">
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceBrand">Brand Name</label>
+                                                <div class="sell-device-form-select-wrapper">
+                                                    <select id="sellDeviceBrand" class="sell-device-form-control">
+                                                        <option value="" disabled selected>Select brand</option>
+                                                        <option value="apple">Apple</option>
+                                                        <option value="samsung">Samsung</option>
+                                                        <option value="oneplus">OnePlus</option>
+                                                        <option value="xiaomi">Xiaomi</option>
+                                                        <option value="google">Google Pixel</option>
+                                                        <option value="oppo">Oppo</option>
+                                                        <option value="vivo">Vivo</option>
+                                                        <option value="realme">Realme</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceModel">Mobile Model Name</label>
+                                                <input type="text" id="sellDeviceModel" class="sell-device-form-control"
+                                                    placeholder="e.g., iPhone 13, Galaxy S22">
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceStorage">Storage Capacity</label>
+                                                <div class="sell-device-form-select-wrapper">
+                                                    <select id="sellDeviceStorage" class="sell-device-form-control">
+                                                        <option value="" disabled selected>Select storage</option>
+                                                        <option value="64">64 GB</option>
+                                                        <option value="128">128 GB</option>
+                                                        <option value="256">256 GB</option>
+                                                        <option value="512">512 GB</option>
+                                                        <option value="1024">1 TB</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceColor">Color</label>
+                                                <input type="text" id="sellDeviceColor" class="sell-device-form-control"
+                                                    placeholder="e.g., Midnight Black, Alpine Green">
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceImei">IMEI Number</label>
+                                                <input type="text" id="sellDeviceImei" class="sell-device-form-control"
+                                                    placeholder="15-digit IMEI" maxlength="15">
+                                                <div class="sell-device-form-hint">Enter exactly 15 digits (primary
+                                                    IMEI).</div>
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceWarranty">Warranty / Open Box</label>
+                                                <div class="sell-device-form-select-wrapper">
+                                                    <select id="sellDeviceWarranty" class="sell-device-form-control">
+                                                        <option value="" disabled selected>Select status</option>
+                                                        <option value="under_warranty">Under Warranty</option>
+                                                        <option value="open_box">Open Box (Unused)</option>
+                                                        <option value="no_warranty">No Warranty</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceAge">Age of Device</label>
+                                                <div class="sell-device-form-select-wrapper">
+                                                    <select id="sellDeviceAge" class="sell-device-form-control">
+                                                        <option value="" disabled selected>Select age</option>
+                                                        <option value="less_than_1">Less than 1 year</option>
+                                                        <option value="1_2">1-2 years</option>
+                                                        <option value="2_3">2-3 years</option>
+                                                        <option value="more_than_3">More than 3 years</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Section 3: Condition of Device -->
+                                    <div class="sell-device-section">
+                                        <h2 class="sell-device-section-title">
+                                            <span>3</span> Condition of Device
+                                        </h2>
+
+                                        <div class="sell-device-form-grid">
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDevicePhysical">Physical Condition</label>
+                                                <div class="sell-device-form-select-wrapper">
+                                                    <select id="sellDevicePhysical" class="sell-device-form-control">
+                                                        <option value="" disabled selected>Select condition</option>
+                                                        <option value="flawless">Flawless - No scratches/dents</option>
+                                                        <option value="good">Good - Minor scratches only</option>
+                                                        <option value="average">Average - Visible wear & tear</option>
+                                                        <option value="poor">Poor - Major damage present</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDeviceFunctional">Functional Condition</label>
+                                                <div class="sell-device-form-select-wrapper">
+                                                    <select id="sellDeviceFunctional" class="sell-device-form-control">
+                                                        <option value="" disabled selected>Select condition</option>
+                                                        <option value="perfect">Perfect - All functions work</option>
+                                                        <option value="good">Good - Minor issues</option>
+                                                        <option value="average">Average - Some functions not working
+                                                        </option>
+                                                        <option value="poor">Poor - Major functional issues</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sell-device-form-grid">
+                                            <div class="sell-device-form-group mt-3" style="grid-column: 1 / -1;">
+                                                <label for="sellDeviceNotes">Additional Notes (optional)</label>
+                                                <textarea id="sellDeviceNotes"
+                                                    class="sell-device-form-control sell-device-textarea" rows="4"
+                                                    placeholder="Mention cracked glass, battery health, replaced parts, box/accessories, etc."></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="sell-device-form-grid">
+                                            <div class="sell-device-form-group" style="grid-column: 1 / -1;">
+                                                <label>Condition Video & Images</label>
+                                                <div class="sell-device-file-upload" id="sellDeviceFileUpload">
+                                                    <div class="sell-device-file-upload-icon">
+                                                        <i class="fas fa-cloud-upload-alt"></i>
+                                                    </div>
+                                                    <div class="sell-device-file-upload-text">Choose Files - No file
+                                                        chosen</div>
+                                                    <div class="sell-device-file-upload-hint">Upload clear photos
+                                                        (front, back, sides) and a short video showing device
+                                                        functionality. Max 10 files (Total size: 50MB).</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Section 4: Pricing -->
+                                    <div class="sell-device-section">
+                                        <h2 class="sell-device-section-title">
+                                            <span>4</span> Pricing
+                                        </h2>
+
+                                        <div class="sell-device-form-grid">
+                                            <div class="sell-device-form-group">
+                                                <label for="sellDevicePrice">Expected Price</label>
+                                                <div class="sell-device-price-container">
+                                                    <div class="sell-device-price-input">
+                                                        <input type="number" id="sellDevicePrice"
+                                                            class="sell-device-form-control" placeholder="e.g., 18500"
+                                                            min="0">
+                                                    </div>
+                                                    <div class="sell-device-form-hint">Enter an amount in INR (numbers
+                                                        only).</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="sell-device-form-group">
+                                                <label>Negotiable</label>
+                                                <div class="sell-device-radio-group">
+                                                    <div class="sell-device-radio-option">
+                                                        <input type="radio" id="sellDeviceNegotiableYes"
+                                                            name="sellDeviceNegotiable" value="yes">
+                                                        <label for="sellDeviceNegotiableYes">Yes, I'm flexible</label>
+                                                    </div>
+                                                    <div class="sell-device-radio-option">
+                                                        <input type="radio" id="sellDeviceNegotiableNo"
+                                                            name="sellDeviceNegotiable" value="no" checked>
+                                                        <label for="sellDeviceNegotiableNo">No, fixed price</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Form Buttons -->
+                                    <div class="sell-device-form-buttons">
+                                        <button type="reset" class="btn btn-theme btn-theme-transparent">
+                                            <i class="fas fa-redo pe-2"></i> Reset Form
+                                        </button>
+                                        <button type="submit" class="btn btn-theme btn-theme-dark">
+                                            <i class="fas fa-paper-plane pe-2"></i> Submit Details
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sell your phone Section End -->
+
+            <!-- Ad Section Start -->
+            <section class="page-section py-md-4 py-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="assets/img/Banners/mobile_p_02.jpg" alt="" class="img-fluid rounded-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Ad Section End -->
+
+        </div>
+        <!-- /CONTENT AREA -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget">
+                                <div class="d-flex align-items-center mb-3 footer-logo">
+                                    <img src="assets/img/logo.png" alt="Mobile Priority Logo" class="img-fluid">
+
+                                </div>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin
+                                    ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                                <ul class="social-icons">
+                                    <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget-categories">
+                                <h4 class="widget-title">Information</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Private Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget-tag-cloud">
+                                <h4 class="widget-title">Item Tags</h4>
+                                <ul>
+                                    <li><a href="#">SAMSUMG</a></li>
+                                    <li><a href="#">Xiaomi</a></li>
+                                    <li><a href="#">APPLE</a></li>
+                                    <li><a href="#">OPPO</a></li>
+                                    <li><a href="#">ONEPLUS</a></li>
+                                    <li><a href="#">GOOGLE</a></li>
+                                    <li><a href="#">NOKIA</a></li>
+                                    <li><a href="#">VIVO</a></li>
+                                    <li><a href="#">NOTHING</a></li>
+                                    <li><a href="#">INFINIX</a></li>
+                                    <li><a href="#">TECNO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget">
+                                <h4 class="widget-title">Contact</h4>
+                                <ul class="d-flex flex-column gap-2">
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-location-dot me-2"></i> 79A, Shelter
+                                            Apartment, Old Calcutta Rd, Sumangalapuri, Anandapuri, Barrackpore, West
+                                            Bengal 700123
+                                    </li></a>
+                                    <li><a href="#"><i class="fa-solid fa-phone me-2"></i> +91 6291701988</li></a>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp me-2"></i> +91 6291701988</li></a>
+                                    <li><a href="#"><i class="fa-regular fa-envelope me-2"></i>
+                                            support@mobilepriority.co.in </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-meta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="copyright">Copyright 2025 Mobile Priority | All Rights Reserved </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="payments">
+                                <ul>
+                                    <li><img src="assets/img/preview/payments/visa.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/mastercard.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/paypal.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/american-express.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/visa-electron.jpg" alt="" /></li>
+                                    <li><img src="assets/img/preview/payments/maestro.jpg" alt="" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /FOOTER -->
+        <div id="to-top" class="to-top"><i class="fa fa-angle-up"></i></div>
+    </div>
+    <!-- /WRAPPER -->
+
+    <!-- JS Global -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.sticky.min.js"></script>
+    <!-- JS Page Level -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

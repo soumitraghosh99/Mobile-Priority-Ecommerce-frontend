@@ -128,272 +128,521 @@
         </header>
         <!-- /HEADER -->
 
-            <!-- CONTENT AREA -->
-            <div class="content-area">
+        <!-- CONTENT AREA -->
+        <div class="content-area">
 
-                <!-- BREADCRUMBS -->
-                <section class="page-section breadcrumbs">
-                    <div class="container">
-                        <div class="page-header">
-                            <h1>Compare Products</h1>
-                        </div>
-                        <ul class="breadcrumb">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li class="active">Compare Products</li>
-                        </ul>
+            <!-- BREADCRUMBS -->
+            <section class="page-section breadcrumbs">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Compare Products</h1>
                     </div>
-                </section>
-                <!-- /BREADCRUMBS -->
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li class="active">Compare Products</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- /BREADCRUMBS -->
 
-                <!-- PAGE -->
-                <section class="page-section color">
-                    <div class="container">
-
-                        <div class="compare-products">
-                            <!-- -->
-
-                            <table class="table-bordered table-hover">
-
-                                <thead>
+            <!-- Compare Section start -->
+            <section class="page-section color">
+                <div class="container">
+                    <div class="compare">
+                        <!-- Compare Content -->
+                        <main class="compare__content">
+                            <table class="compare-table">
+                                <!-- Table Header -->
+                                <thead class="compare-table__header-row">
                                     <tr>
-                                        <td>Product Name & Image</td>
-                                        <td>
-                                            <div class="product">
-                                                <a class="close" href="#"><i class="fa fa-close"></i></a>
-                                                <a class="media-link" href="#">
-                                                    <img class="img-responsive" src="assets/img/preview/shop/compare-1.jpg" alt=""/>
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <div class="clear"></div>
-                                                <h4><a href="#">Standard Product Name</a></h4>
-                                                <strong>by Category Name</strong>
+                                        <th class="compare-table__header-cell compare-table__header-cell--feature">
+                                            Features</th>
+                                        <th class="compare-table__header-cell">
+                                            <!-- Product 1 -->
+                                            <div class="compare-product">
+                                                <button class="compare-product__remove" title="Remove from comparison">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                                <div class="compare-product__image">
+                                                    <img src="assets/img/Product/product1.jpg" alt="Samsung Galaxy S21">
+                                                </div>
+                                                <h3 class="compare-product__title">Samsung Galaxy S21 5G</h3>
+                                                <p class="compare-product__subtitle">8GB RAM, 128GB Storage</p>
+                                                <div class="compare-product__rating">
+                                                    <div class="compare-product__rating-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </div>
+                                                    <span class="compare-product__rating-value">4.5</span>
+                                                    <span class="compare-product__rating-count">(1,247)</span>
+                                                </div>
+                                                <div class="compare-product__price">
+                                                    <div class="compare-product__price-current">₹34,999</div>
+                                                    <div class="compare-product__price-original">₹54,999</div>
+                                                    <span class="compare-product__discount">Save ₹20,000</span>
+                                                </div>
+                                                <div class="compare-product__actions">
+                                                    <button class="compare-product__btn compare-product__btn--cart">
+                                                        <i class="fas fa-cart-plus"></i>
+                                                        Add to Cart
+                                                    </button>
+                                                </div>
                                             </div>
-                                        </td>
-                                        <td>
-                                            <div class="product">
-                                                <a class="close" href="#"><i class="fa fa-close"></i></a>
-                                                <a class="media-link" href="#">
-                                                    <img class="img-responsive" src="assets/img/preview/shop/compare-2.jpg" alt=""/>
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <div class="clear"></div>
-                                                <h4><a href="#">Standard Product Name</a></h4>
-                                                <strong>by Category Name</strong>
+                                        </th>
+                                        <th class="compare-table__header-cell">
+                                            <!-- Product 2 -->
+                                            <div class="compare-product">
+                                                <button class="compare-product__remove" title="Remove from comparison">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                                <div class="compare-product__image">
+                                                    <img src="assets/img/Product/product2.jpg" alt="iPhone 12">
+                                                </div>
+                                                <h3 class="compare-product__title">Apple iPhone 12</h3>
+                                                <p class="compare-product__subtitle">4GB RAM, 128GB Storage</p>
+                                                <div class="compare-product__rating">
+                                                    <div class="compare-product__rating-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="compare-product__rating-value">4.8</span>
+                                                    <span class="compare-product__rating-count">(2,156)</span>
+                                                </div>
+                                                <div class="compare-product__price">
+                                                    <div class="compare-product__price-current">₹42,999</div>
+                                                    <div class="compare-product__price-original">₹69,999</div>
+                                                    <span class="compare-product__discount">Save ₹27,000</span>
+                                                </div>
+                                                <div class="compare-product__actions">
+                                                    <button class="compare-product__btn compare-product__btn--cart">
+                                                        <i class="fas fa-cart-plus"></i>
+                                                        Add to Cart
+                                                    </button>
+
+                                                </div>
                                             </div>
-                                        </td>
-                                        <td>
-                                            <div class="product">
-                                                <a class="close" href="#"><i class="fa fa-close"></i></a>
-                                                <a class="media-link" href="#">
-                                                    <img class="img-responsive" src="assets/img/preview/shop/compare-3.jpg" alt=""/>
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <div class="clear"></div>
-                                                <h4><a href="#">Standard Product Name</a></h4>
-                                                <strong>by Category Name</strong>
+                                        </th>
+                                        <th class="compare-table__header-cell">
+                                            <!-- Product 3 -->
+                                            <div class="compare-product">
+                                                <button class="compare-product__remove" title="Remove from comparison">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                                <div class="compare-product__image">
+                                                    <img src="assets/img/Product/product3.jpg" alt="OnePlus 9">
+                                                </div>
+                                                <h3 class="compare-product__title">OnePlus 9 5G</h3>
+                                                <p class="compare-product__subtitle">12GB RAM, 256GB Storage</p>
+                                                <div class="compare-product__rating">
+                                                    <div class="compare-product__rating-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="compare-product__rating-value">4.7</span>
+                                                    <span class="compare-product__rating-count">(985)</span>
+                                                </div>
+                                                <div class="compare-product__price">
+                                                    <div class="compare-product__price-current">₹31,999</div>
+                                                    <div class="compare-product__price-original">₹49,999</div>
+                                                    <span class="compare-product__discount">Save ₹18,000</span>
+                                                </div>
+                                                <div class="compare-product__actions">
+                                                    <button class="compare-product__btn compare-product__btn--cart">
+                                                        <i class="fas fa-cart-plus"></i>
+                                                        Add to Cart
+                                                    </button>
+
+                                                </div>
                                             </div>
-                                        </td>
+                                        </th>
                                     </tr>
                                 </thead>
 
+                                <!-- Table Body -->
                                 <tbody>
-                                    <tr>
-                                        <td>Rating</td>
-                                        <td>
-                                            <div class="rating">
-                                                <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                            </div>
-                                            <a class="reviews" href="#">16 reviews</a>
-                                        </td>
-                                        <td>
-                                            <div class="rating">
-                                                <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                            </div>
-                                            <a class="reviews" href="#">12 reviews</a>
-                                        </td>
-                                        <td>
-                                            <div class="rating">
-                                                <span class="star"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span><!--
-                                                --><span class="star active"></span>
-                                            </div>
-                                            <a class="reviews" href="#">24 reviews</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="price">
-                                        <td>Price</td>
-                                        <td>$116.00</td>
-                                        <td>$85.00</td>
-                                        <td>$224.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Shipping</td>
-                                        <td><strong class="text-color">Free Shipping</strong></td>
-                                        <td><strong class="text-color">Free Shipping</strong></td>
-                                        <td><strong class="text-color">+15</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Manifacturer</td>
-                                        <td>Manifacturer Name 01</td>
-                                        <td>Manifacturer Name 02</td>
-                                        <td>Manifacturer Name 03</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Avaliablity</td>
-                                        <td><strong class="text-color">In stock</strong> 21 Item(s)</td>
-                                        <td><strong class="text-color">In stock</strong> 21 Item(s)</td>
-                                        <td><strong class="text-color">In stock</strong> 21 Item(s)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Product Code</td>
-                                        <td>PCode0236</td>
-                                        <td>PCode0216</td>
-                                        <td>PCode0212</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Size</td>
-                                        <td>Medium</td>
-                                        <td>Large</td>
-                                        <td>Small</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dimensions (LxWxH)</td>
-                                        <td>50x90x120</td>
-                                        <td>50x90x120</td>
-                                        <td>50x90x120</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Weight</td>
-                                        <td>230 KG</td>
-                                        <td>230 KG</td>
-                                        <td>230 KG</td>
-                                    </tr>
-                                    <tr class="colors">
-                                        <td>Colors</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><span style="background-color: #ffffff"></span></a></li>
-                                                <li><a href="#"><span style="background-color: #161618"></span></a></li>
-                                                <li><a href="#"><span style="background-color: #e74c3c"></span></a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><span style="background-color: #783ce7"></span></a></li>
-                                                <li><a href="#"><span style="background-color: #3498db"></span></a></li>
-                                                <li><a href="#"><span style="background-color: #00a847"></span></a></li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><span style="background-color: #3ce7d9"></span></a></li>
-                                                <li><a href="#"><span style="background-color: #fa17bc"></span></a></li>
-                                                <li><a href="#"><span style="background-color: #a87e00"></span></a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Actions</td>
-                                        <td>
-                                            <div class="buttons">
-                                                <div class="quantity">
-                                                    <button class="btn"><i class="fa fa-minus"></i></button>
-                                                    <input class="form-control qty" type="number" step="1" min="1" name="quantity" value="1" title="Qty">
-                                                    <button class="btn"><i class="fa fa-plus"></i></button>
-                                                </div>
-                                                <button class="btn btn-theme btn-cart btn-icon-left" type="submit"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-                                                <button class="btn btn-theme btn-wish-list"><i class="fa fa-heart"></i></button>
+                                    <!-- Price & Offers -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Price & Offers</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">₹34,999</div>
+                                                <div class="compare-feature__highlight">35% OFF</div>
+                                                <span class="compare-feature__badge compare-feature__badge--yes">EMI
+                                                    Available</span>
                                             </div>
                                         </td>
-                                        <td>
-                                            <div class="buttons">
-                                                <div class="quantity">
-                                                    <button class="btn"><i class="fa fa-minus"></i></button>
-                                                    <input class="form-control qty" type="number" step="1" min="1" name="quantity" value="1" title="Qty">
-                                                    <button class="btn"><i class="fa fa-plus"></i></button>
-                                                </div>
-                                                <button class="btn btn-theme btn-cart btn-icon-left" type="submit"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-                                                <button class="btn btn-theme btn-wish-list"><i class="fa fa-heart"></i></button>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">₹42,999</div>
+                                                <div class="compare-feature__highlight">38% OFF</div>
+                                                <span class="compare-feature__badge compare-feature__badge--yes">EMI
+                                                    Available</span>
                                             </div>
                                         </td>
-                                        <td>
-                                            <div class="buttons">
-                                                <div class="quantity">
-                                                    <button class="btn"><i class="fa fa-minus"></i></button>
-                                                    <input class="form-control qty" type="number" step="1" min="1" name="quantity" value="1" title="Qty">
-                                                    <button class="btn"><i class="fa fa-plus"></i></button>
-                                                </div>
-                                                <button class="btn btn-theme btn-cart btn-icon-left" type="submit"><i class="fa fa-shopping-cart"></i>Add to cart</button>
-                                                <button class="btn btn-theme btn-wish-list"><i class="fa fa-heart"></i></button>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">₹31,999</div>
+                                                <div class="compare-feature__highlight">36% OFF</div>
+                                                <span class="compare-feature__badge compare-feature__badge--yes">EMI
+                                                    Available</span>
                                             </div>
                                         </td>
-                                    </tr>
-                                </tbody>
 
-                            </table>
+                                    </tr>
 
-                            <!-- -->
-                        </div>
+                                    <!-- Display -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Display</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">6.2" Dynamic AMOLED 2X</div>
+                                                <div class="compare-feature__value">120Hz Refresh Rate</div>
+                                                <div class="compare-feature__value">Full HD+ (2400x1080)</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">6.1" Super Retina XDR</div>
+                                                <div class="compare-feature__value">60Hz Refresh Rate</div>
+                                                <div class="compare-feature__value">Full HD+ (2532x1170)</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">6.55" Fluid AMOLED</div>
+                                                <div class="compare-feature__value">120Hz Refresh Rate</div>
+                                                <div class="compare-feature__value">Full HD+ (2400x1080)</div>
+                                            </div>
+                                        </td>
 
+                                    </tr>
+
+                                    <!-- Processor -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Processor</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Exynos 2100</div>
+                                                <div class="compare-feature__value">5nm Technology</div>
+                                                <div class="compare-feature__value">Octa-core</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Apple A14 Bionic</div>
+                                                <div class="compare-feature__value">5nm Technology</div>
+                                                <div class="compare-feature__value">Hexa-core</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Qualcomm Snapdragon 888</div>
+                                                <div class="compare-feature__value">5nm Technology</div>
+                                                <div class="compare-feature__value">Octa-core</div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- Memory & Storage -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Memory & Storage
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">8GB RAM</div>
+                                                <div class="compare-feature__value">128GB Storage</div>
+                                                <span class="compare-feature__badge compare-feature__badge--no">No Card
+                                                    Slot</span>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">4GB RAM</div>
+                                                <div class="compare-feature__value">128GB Storage</div>
+                                                <span class="compare-feature__badge compare-feature__badge--no">No Card
+                                                    Slot</span>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">12GB RAM</div>
+                                                <div class="compare-feature__value">256GB Storage</div>
+                                                <span class="compare-feature__badge compare-feature__badge--no">No Card
+                                                    Slot</span>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- Camera -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Camera</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Triple: 64MP + 12MP + 12MP</div>
+                                                <div class="compare-feature__value">Front: 10MP</div>
+                                                <div class="compare-feature__value">8K Video Recording</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Dual: 12MP + 12MP</div>
+                                                <div class="compare-feature__value">Front: 12MP</div>
+                                                <div class="compare-feature__value">4K Dolby Vision</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Triple: 48MP + 50MP + 2MP</div>
+                                                <div class="compare-feature__value">Front: 16MP</div>
+                                                <div class="compare-feature__value">8K Video Recording</div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- Battery -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Battery</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">4000mAh</div>
+                                                <div class="compare-feature__value">25W Fast Charging</div>
+                                                <div class="compare-feature__value">Wireless Charging</div>
+                                                <span class="compare-feature__badge compare-feature__badge--yes">92%
+                                                    Health</span>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">2815mAh</div>
+                                                <div class="compare-feature__value">20W Fast Charging</div>
+                                                <div class="compare-feature__value">MagSafe Wireless</div>
+                                                <span class="compare-feature__badge compare-feature__badge--yes">94%
+                                                    Health</span>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">4500mAh</div>
+                                                <div class="compare-feature__value">65W Warp Charge</div>
+                                                <div class="compare-feature__value">No Wireless</div>
+                                                <span class="compare-feature__badge compare-feature__badge--yes">88%
+                                                    Health</span>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- OS & Updates -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">OS & Updates</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">Android 11</div>
+                                                <div class="compare-feature__value">Up to Android 14</div>
+                                                <div class="compare-feature__value">4 Years Updates</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">iOS 14</div>
+                                                <div class="compare-feature__value">Up to iOS 17</div>
+                                                <div class="compare-feature__value">6 Years Updates</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">OxygenOS 11 (Android 11)</div>
+                                                <div class="compare-feature__value">Up to Android 14</div>
+                                                <div class="compare-feature__value">3 Years Updates</div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- Connectivity -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Connectivity</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <i class="fas fa-check compare-feature__icon"></i> 5G
+                                                <i class="fas fa-check compare-feature__icon"></i> Wi-Fi 6
+                                                <i class="fas fa-check compare-feature__icon"></i> Bluetooth 5.2
+                                                <i class="fas fa-check compare-feature__icon"></i> NFC
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <i class="fas fa-check compare-feature__icon"></i> 5G
+                                                <i class="fas fa-check compare-feature__icon"></i> Wi-Fi 6
+                                                <i class="fas fa-check compare-feature__icon"></i> Bluetooth 5.0
+                                                <i class="fas fa-check compare-feature__icon"></i> NFC
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <i class="fas fa-check compare-feature__icon"></i> 5G
+                                                <i class="fas fa-check compare-feature__icon"></i> Wi-Fi 6
+                                                <i class="fas fa-check compare-feature__icon"></i> Bluetooth 5.2
+                                                <i class="fas fa-check compare-feature__icon"></i> NFC
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- Warranty & Condition -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Warranty &
+                                            Condition</td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">6 Months Warranty</div>
+                                                <div class="compare-feature__value">Certified Pre-Owned</div>
+                                                <div class="compare-feature__value">Like New Condition</div>
+                                                <span
+                                                    class="compare-feature__badge compare-feature__badge--yes">Original
+                                                    Bill</span>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">6 Months Warranty</div>
+                                                <div class="compare-feature__value">Certified Pre-Owned</div>
+                                                <div class="compare-feature__value">Excellent Condition</div>
+                                                <span
+                                                    class="compare-feature__badge compare-feature__badge--yes">Original
+                                                    Bill</span>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <div class="compare-feature__value">6 Months Warranty</div>
+                                                <div class="compare-feature__value">Certified Pre-Owned</div>
+                                                <div class="compare-feature__value">Good Condition</div>
+                                                <span
+                                                    class="compare-feature__badge compare-feature__badge--yes">Original
+                                                    Bill</span>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+
+                                    <!-- Protection Plan -->
+                                    <tr class="compare-table__row">
+                                        <td class="compare-table__cell compare-table__cell--feature">Protection Plan
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <span
+                                                    class="compare-feature__badge compare-feature__badge--yes">Available</span>
+                                                <div class="compare-feature__value">₹2,499 for 12 months</div>
+                                                <div class="compare-feature__value">Screen & Liquid Damage</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <span
+                                                    class="compare-feature__badge compare-feature__badge--yes">Available</span>
+                                                <div class="compare-feature__value">₹3,499 for 12 months</div>
+                                                <div class="compare-feature__value">AppleCare+ Equivalent</div>
+                                            </div>
+                                        </td>
+                                        <td class="compare-table__cell">
+                                            <div class="compare-feature">
+                                                <span
+                                                    class="compare-feature__badge compare-feature__badge--yes">Available
+                                            </div>
+                                            <div class="compare-feature__value">₹1,999 for 12 months</div>
+                                            <div class="compare-feature__value">Accidental Damage</div>
                     </div>
-                </section>
-                <!-- /PAGE -->
+                    </td>
+                    </tr>
 
-                <!-- PAGE -->
-                <section class="page-section">
-                    <div class="container">
-                        <div class="row blocks shop-info-banners">
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <div class="media">
-                                        <div class="pull-right"><i class="fa fa-gift"></i></div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Buy 1 Get 1</h4>
-                                            Proin dictum elementum velit. Fusce euismod consequat ante.
-                                        </div>
-                                    </div>
-                                </div>
+                    <!-- Action Buttons Row -->
+                    <tr class="compare-table__row">
+                        <td class="compare-table__cell compare-table__cell--feature"></td>
+                        <td class="compare-table__cell">
+                            <div class="compare-product__actions">
+                                <button class="compare-product__btn compare-product__btn--cart">
+                                    <i class="fas fa-cart-plus"></i>
+                                    Add to Cart
+                                </button>
+
                             </div>
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <div class="media">
-                                        <div class="pull-right"><i class="fa fa-comments"></i></div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Call to Free</h4>
-                                            Proin dictum elementum velit. Fusce euismod consequat ante.
-                                        </div>
-                                    </div>
-                                </div>
+                        </td>
+                        <td class="compare-table__cell">
+                            <div class="compare-product__actions">
+                                <button class="compare-product__btn compare-product__btn--cart">
+                                    <i class="fas fa-cart-plus"></i>
+                                    Add to Cart
+                                </button>
+
                             </div>
-                            <div class="col-md-4">
-                                <div class="block">
-                                    <div class="media">
-                                        <div class="pull-right"><i class="fa fa-trophy"></i></div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Money Back!</h4>
-                                            Proin dictum elementum velit. Fusce euismod consequat ante.
-                                        </div>
-                                    </div>
+                        </td>
+                        <td class="compare-table__cell">
+                            <div class="compare-product__actions">
+                                <button class="compare-product__btn compare-product__btn--cart">
+                                    <i class="fas fa-cart-plus"></i>
+                                    Add to Cart
+                                </button>
+
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </main>
+
+                    <!-- Compare Footer -->
+                    <footer class="compare-footer">
+                        <h3 class="compare-footer__title">Why Compare on Mobile Priority?</h3>
+                        <div class="compare-footer__grid">
+                            <div class="compare-footer__card">
+                                <div class="compare-footer__card-icon">
+                                    <i class="fas fa-certificate"></i>
                                 </div>
+                                <h4 class="compare-footer__card-title">Certified Pre-Owned</h4>
+                                <p class="compare-footer__card-text">All devices undergo rigorous 30-point quality
+                                    checks and come with warranty for peace of mind.</p>
+                            </div>
+
+                            <div class="compare-footer__card">
+                                <div class="compare-footer__card-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h4 class="compare-footer__card-title">Best Price Guarantee</h4>
+                                <p class="compare-footer__card-text">We guarantee the best prices on all certified
+                                    pre-owned devices with transparent pricing.</p>
+                            </div>
+
+                            <div class="compare-footer__card">
+                                <div class="compare-footer__card-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <h4 class="compare-footer__card-title">Easy Exchange</h4>
+                                <p class="compare-footer__card-text">Exchange your old device for any of these products
+                                    with convenient top-up options.</p>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <!-- /PAGE -->
+                    </footer>
+                </div>
+            </section>
+            <!-- /PAGE -->
 
-            </div>
-            <!-- /CONTENT AREA -->
+        </div>
+        <!-- /CONTENT AREA -->
         <!-- FOOTER -->
         <footer class="footer">
             <div class="footer-widgets">
@@ -503,4 +752,5 @@
     <!-- JS Page Level -->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
